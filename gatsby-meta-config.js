@@ -1,6 +1,6 @@
 module.exports = {
   title: `Young Jin's Blog`,
-  description: `Develop, Security, It, Etc...`,
+  description: `break, compose, display`,
   author: `Young Jin Ahn`,
   introduction: `break, compose, display`,
   siteUrl: `https://snoop2head.github.io/`, // Your blog site url
