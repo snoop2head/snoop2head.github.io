@@ -31,7 +31,7 @@ const Search = ({ value, onChange, location }) => {
           <AiOutlineSearch css={tw`text-gray-500 my-auto w-8 h-8`} />
           <input
             css={tw`appearance-none focus:outline-none w-full ml-2 bg-transparent placeholder-gray-600`}
-            placeholder={"검색어를 입력해주세요."}
+            placeholder={"Search for Posts!"}
             value={value}
             onChange={onChange}
             onKeyPress={handlePress}
