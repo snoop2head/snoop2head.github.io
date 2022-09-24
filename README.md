@@ -3,9 +3,9 @@
 ### Commands
 
 ```bash
-npm build
-npm start
-npm deploy
+npm run build
+npm run start
+npm run deploy
 ```
 
 ```json
