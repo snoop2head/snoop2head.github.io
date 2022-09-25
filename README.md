@@ -2,13 +2,10 @@
 
 ### Commands
 
-**updates gh-pages branch and publishes**
+**Move previous posts to current blog**
 
 ```bash
-npm run deploy
-git add .
-git commit -m "message"
-git push
+python migrate.py
 ```
 
 **testing purpose on the local**
@@ -16,6 +13,15 @@ git push
 ```bash
 npm run build
 npm run start
+```
+
+**updates gh-pages branch and publishes**
+
+```bash
+npm run deploy
+git add .
+git commit -m "message"
+git push
 ```
 
 ```json
