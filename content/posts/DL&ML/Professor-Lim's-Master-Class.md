@@ -1,7 +1,7 @@
 ---
 title: "Professor-Lim's-Master-Class(KOR)"
 date: 2021-08-05
-tags: ["DL&ML"]
+tags: ["Theory"]
 draft: false
 ---
 

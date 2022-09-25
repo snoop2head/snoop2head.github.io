@@ -1,7 +1,7 @@
 ---
 title: "Week 1 Table of Contents"
 date: 2021-08-07
-tags: ["DL&ML", "Theory"]
+tags: ["Theory"]
 draft: false
 ---
 

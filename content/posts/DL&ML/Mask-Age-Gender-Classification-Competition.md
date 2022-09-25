@@ -1,7 +1,7 @@
 ---
 title: "Classification Competition Wrap up report 1"
 date: 2021-09-04
-tags: ["DL&ML", "ComputerVision", "Competition"]
+tags: ["ComputerVision", "Competition"]
 draft: false
 ---
 
@@ -622,10 +622,10 @@ Ever since the beginning, note823 has been attaching two fully connected layers 
       plt.figure(figsize=(16,10))
       plt.suptitle(title, fontsize = 16)
   #     sampleList = random.sample(paths, n)
-
+  
       for k in range(n):
           img, label = next(pred_result_iter)
-
+  
           label = label.cpu().numpy()[0]
           img = Image.open(img[0])
 
@@ -633,7 +633,7 @@ Ever since the beginning, note823 has been attaching two fully connected layers 
           plt.subplot(rows, cols, k+1)
           plt.imshow(img)
           plt.axis('off')
-
+    
           plt.title("label:%s"%(label))
 
   show_images(pred_result_iter, n=50, rows=5, cols= 10, title='Test Sample')

@@ -30,7 +30,7 @@ const DarkmodeToggle = () => {
                 ${tw`hidden md:inline-block`}
               `}
             >
-              라이트 모드로 보기
+              Use Light Mode
             </span>
           </>
         ) : (
@@ -45,7 +45,7 @@ const DarkmodeToggle = () => {
                 ${tw`hidden md:inline-block mr-0 md:mr-1`}
               `}
             >
-              다크 모드로 보기
+              Use Dark Mode
             </span>
           </>
         )}

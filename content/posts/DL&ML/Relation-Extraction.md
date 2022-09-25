@@ -1,7 +1,7 @@
 ---
 title: "KLUE Relation Extraction: Subject Entity and Object Entity"
 date: 2021-10-08
-tags: ["DL&ML", "NLP", "Competition"]
+tags: ["NLP", "Competition"]
 draft: false
 ---
 

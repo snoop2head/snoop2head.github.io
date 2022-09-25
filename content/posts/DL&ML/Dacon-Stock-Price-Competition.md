@@ -1,7 +1,7 @@
 ---
 title: "Using ElasticNetCV for Stock Price Prediction"
 date: 2021-09-20
-tags: ["DL&ML", "Quant", "Competition"]
+tags: ["Quant", "Competition"]
 draft: false
 ---
 
@@ -124,7 +124,7 @@ display(stock_list.tail())
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -184,7 +184,7 @@ display(stock_list.tail())
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -282,7 +282,7 @@ pred_df
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -1588,7 +1588,7 @@ true_df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -2560,7 +2560,7 @@ df_result_sampled_copy
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -2782,7 +2782,7 @@ display(df_result_all)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }

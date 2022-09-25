@@ -1,7 +1,7 @@
 ---
 title: "Gradient Descent on 1D loss function"
 date: 2021-08-08
-tags: ["DL&ML", "Theory"]
+tags: ["Theory"]
 draft: false
 ---
 
@@ -314,5 +314,5 @@ gradient_descent(input_function = polynomial_function, init_point = x_starting_p
     Current point: (-0.999994814904246, 2.00000000002689)
     Iteration: 670
     Gradient value: 0.0000103701915079579
-
+    
     [-0.999995020234038, 2.00000000002480]

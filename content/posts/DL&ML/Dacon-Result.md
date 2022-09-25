@@ -1,7 +1,7 @@
 ---
 title: "Assessment on the Dacon’s Stock Price Prediction Competition"
 date: 2021-10-25
-tags: ["DL&ML", "Quant", "Competition"]
+tags: ["Quant", "Competition"]
 draft: false
 ---
 

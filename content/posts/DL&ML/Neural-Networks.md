@@ -1,7 +1,7 @@
 ---
 title: "Neural Networks"
 date: 2021-08-09
-tags: ["DL&ML"]
+tags: ["Theory"]
 draft: false
 ---
 

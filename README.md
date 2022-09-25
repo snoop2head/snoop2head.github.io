@@ -2,12 +2,6 @@
 
 ### Commands
 
-**Move previous posts to current blog**
-
-```bash
-python migrate.py
-```
-
 **testing purpose on the local**
 
 ```bash
@@ -31,6 +25,12 @@ git push
   "start": "npm run develop",
   "deploy": "gatsby build && gh-pages -d public"
 }
+```
+
+**Move previous posts to current blog**
+
+```bash
+python migrate.py
 ```
 
 ### Sources

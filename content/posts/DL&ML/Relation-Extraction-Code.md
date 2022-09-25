@@ -1,7 +1,7 @@
 ---
 title: "RBERT for Relation Extraction: full code & Wandb log"
 date: 2021-10-09
-tags: ["DL&ML", "NLP", "Competition"]
+tags: ["NLP", "Competition"]
 draft: false
 ---
 
@@ -579,7 +579,7 @@ df_pororo_dataset.head(2)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -826,15 +826,15 @@ print("#################### TRAIN IS OVER! ######################")
     #################### Fold: 2 ######################
     ...
     100%|██████████| 5/5 [1:44:46<00:00, 1257.26s/it]
-
+    
     #################### Fold: 3 ######################
     ...
     100%|██████████| 5/5 [1:44:38<00:00, 1255.74s/it]
-
+    
     #################### Fold: 4 ######################
     ...
     100%|██████████| 5/5 [1:46:05<00:00, 1273.11s/it]
-
+    
     #################### Fold: 5 ######################
     ...
     100%|██████████| 5/5 [1:47:18<00:00, 1287.77s/it]
@@ -881,7 +881,7 @@ test_data_loader = DataLoader(test_set, batch_size=CFG.batch_size, num_workers=C
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -930,7 +930,7 @@ for i, data in enumerate(tqdm(test_data_loader)) :
 ```
 
       0%|          | 0/195 [00:00<?, ?it/s]
-
+    
     {'input_ids': tensor([[    0,    11, 32067,  ...,     1,     1,     1],
             [    0,    11, 32001,  ...,     1,     1,     1],
             [    0,    11, 32067,  ...,  4271,  2145,     2],

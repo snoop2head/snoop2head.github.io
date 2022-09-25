@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning Concepts"
 date: 2021-08-10
-tags: ["DL&ML", "Theory"]
+tags: ["Theory"]
 draft: false
 ---
 

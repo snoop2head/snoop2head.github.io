@@ -1,7 +1,7 @@
 ---
 title: "NLP Clipboard"
 date: 2021-09-07
-tags: ["DL&ML", "NLP"]
+tags: ["NLP"]
 draft: false
 ---
 

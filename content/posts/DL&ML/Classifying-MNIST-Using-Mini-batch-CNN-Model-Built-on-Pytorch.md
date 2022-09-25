@@ -1,7 +1,7 @@
 ---
 title: "Classifying MNIST Using Mini-batch CNN Model Built on Pytorch"
 date: 2021-08-11
-tags: ["DL&ML", "ComputerVision", "Pytorch"]
+tags: ["ComputerVision", "Pytorch"]
 draft: false
 ---
 
@@ -86,7 +86,7 @@ array_sample_image.shape
 ```
 
     torch.Size([1, 28, 28])
-
+    
     (28, 28)
 
 ```python

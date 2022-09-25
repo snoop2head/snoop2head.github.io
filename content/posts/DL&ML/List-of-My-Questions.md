@@ -1,7 +1,7 @@
 ---
 title: "List of Unnoticed Questions"
 date: 2021-08-17
-tags: ["DL&ML", "Pytorch", "Theory"]
+tags: ["Pytorch", "Theory"]
 draft: false
 ---
 
@@ -47,14 +47,14 @@ https://github.com/Boostcamp-AI-Tech-Team123/meetup-log/wiki/2021-08-11
 
   ```
   https://pytorch.org/tutorials/beginner/examples_nn/two_layer_net_optim.html
-
+  
   # Before the backward pass, use the optimizer object to zero all of the
       # gradients for the variables it will update (which are the learnable
       # weights of the model). This is because by default, gradients are
       # accumulated in buffers( i.e, not overwritten) whenever .backward()
       # is called. Checkout docs of torch.autograd.backward for more details.
       optimizer.zero_grad()
-
+  
   ```
 
   ## Questions during NLP study
