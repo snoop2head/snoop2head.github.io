@@ -2,7 +2,7 @@
 title: "Book Recommendation for DL & ML"
 date: 2020-02-13 19:34
 tags: ["DL&ML"]
-draft: true
+draft: false
 ---
 
 ### My Bookshelf

@@ -2,10 +2,20 @@
 
 ### Commands
 
+**updates gh-pages branch and publishes**
+
+```bash
+npm run deploy
+git add .
+git commit -m "message"
+git push
+```
+
+**testing purpose on the local**
+
 ```bash
 npm run build
 npm run start
-npm run deploy # updates gh-pages branch
 ```
 
 ```json
