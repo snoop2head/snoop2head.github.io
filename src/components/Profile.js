@@ -11,7 +11,7 @@ import {
   FaMedium,
   FaLinkedin,
 } from "react-icons/fa"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery, Link } from "gatsby"
 
 const Wrapper = tw.div`w-full max-w-screen-md px-4 md:px-0 mx-auto pt-8 md:pt-12 mt-2 mb-4`
 const ProfileContainer = tw.div`md:flex items-center px-2`
@@ -64,7 +64,9 @@ const Profile = () => {
                 : whiteModeColor.textColor1};
             `}
           >
-            @{author}
+            <Link to={"/about"} className="author-name-content">
+              <span>@{author}</span>
+            </Link>
           </p>
           <div css={tw`text-sm font-normal mb-2`}>{introduction}</div>
         </div>

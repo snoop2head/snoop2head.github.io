@@ -1,5 +1,5 @@
 module.exports = {
-  title: `Young Jin's Blog`,
+  title: `snoop2head's blog`,
   description: `break, compose, display`,
   author: `Young Jin Ahn`,
   introduction: `break, compose, display`,

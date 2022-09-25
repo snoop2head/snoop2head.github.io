@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react"
 import tw, { css } from "twin.macro"
 import { keyframes } from "@emotion/core"
 import Divider from "./Divider"
-import { FaFacebookF, FaTwitter, FaLink, FaInfo } from "react-icons/fa"
+import { FaTwitter, FaLink, FaInfo } from "react-icons/fa"
 import { whiteModeColor, darkModeColor } from "../../them-color"
 import ThemeContext from "../lib/context/ThemContext"
 
@@ -29,14 +29,6 @@ const ShareButtons = ({ url, text }) => {
     visible: false,
     end: true,
   })
-  const onFackebookClick = () => {
-    window.FB.ui({
-      method: "share",
-      mobile_iframe: true,
-      href: url,
-      quote: text,
-    })
-  }
 
   const onTwitterClick = () => {
     window.open(
