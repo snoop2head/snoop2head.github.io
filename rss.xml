@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Young Jin's Blog]]></title><description><![CDATA[break, compose, display]]></description><link>https://snoop2head.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 25 Sep 2022 04:59:13 GMT</lastBuildDate><item><title><![CDATA[Python Language Structure]]></title><link>https://snoop2head.github.io/CS/Python-language-structure/</link><guid isPermaLink="false">https://snoop2head.github.io/CS/Python-language-structure/</guid><pubDate>Fri, 23 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;style class=&quot;grvsc-styles&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Young Jin's Blog]]></title><description><![CDATA[break, compose, display]]></description><link>https://snoop2head.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 25 Sep 2022 06:41:30 GMT</lastBuildDate><item><title><![CDATA[Python Language Structure]]></title><description><![CDATA[In the GDSC Yonsei Seoul session held at September 20th, Computer Science & Engineering Basic Knowledge Test was tested on all of the…]]></description><link>https://snoop2head.github.io/CS/Python-language-structure/</link><guid isPermaLink="false">https://snoop2head.github.io/CS/Python-language-structure/</guid><pubDate>Fri, 23 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In the GDSC Yonsei Seoul session held at September 20th, Computer Science &amp;#x26; Engineering Basic Knowledge Test was tested on all of the members. There were total 16 questions regarding Data Structure, Computer Architecture, Operating System and Network.&lt;/p&gt;
+&lt;p&gt;I found that basics on Python language necessary for me to study on. After the session, I purchased &lt;a href=&quot;https://realpython.com/products/cpython-internals-book/&quot;&gt;CPython Internals Book&lt;/a&gt; published by Real Python to continue the endeavor.&lt;/p&gt;
+&lt;h3 id=&quot;q10-state-the-differences-between-compiled-languages-and-interpreted-languages&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#q10-state-the-differences-between-compiled-languages-and-interpreted-languages&quot; aria-label=&quot;q10 state the differences between compiled languages and interpreted languages permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Q10. State the differences between compiled languages and interpreted languages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Compiled languages: Rust, C++&lt;/li&gt;
+&lt;li&gt;Interpreted language: Python, JS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Q10-1. Explain how example.py works&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 879px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABB0lEQVQY032RTU7DMBCFczCuB5dgzQkQEosukbqABZVK2BSRJjRq0zo/Tpw/x/lwoqaqqqqjGT2/GY/seeMwWn+E3vrxPNlV3p/yIxv6jBnR0V2PdQY8bzKWG23GBhN7qK9XdLjEWN4NORv64q3BnDgr2IQh20iQq4aybsjziiyVFFKiakjnT6we7hAv96imxQv++PXW7OKEojOUvo/8eKd0XZwsL1mvfaJDQrDZsnS/8YOQaLe3ESFlTbt6w8wf6ZbPqEoh0gyRpCSFQtkpVBDgz2Yki0+cpm3J8sL+rjxp2WlNLmLkXqBt3VQph58FOtuNN6aRz1Uy08iXGvRXdLm5lGmRx/gHwbHPFpexR8gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20220925151541822&quot;
+        title=&quot;image-20220925151541822&quot;
+        src=&quot;/static/ac44bc510f39bb2821d78860ff082578/bcb8c/image-20220925151541822.png&quot;
+        srcset=&quot;/static/ac44bc510f39bb2821d78860ff082578/5a46d/image-20220925151541822.png 300w,
+/static/ac44bc510f39bb2821d78860ff082578/0a47e/image-20220925151541822.png 600w,
+/static/ac44bc510f39bb2821d78860ff082578/bcb8c/image-20220925151541822.png 879w&quot;
+        sizes=&quot;(max-width: 879px) 100vw, 879px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;example.py (source code) ➡️ example.pyc (byte code) ➡️ CPython Virtual machine ➡️ Binary code / Machine Code&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q10-2. Explain JIT(Just in Time) Compiler&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.geeksforgeeks.org/wp-content/uploads/pythonByteCode.jpg&quot; alt=&quot;flo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;pypy is one type of the interpreter that is known to be faster than CPython. IT adapts JIT compiler structure, where JIT is compiling frequently used codes before the code is run. Also, it compiles bytecodes into machine code at run time which is known to reduce time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q14-1. Python&apos;s multi thread programming works differently compared to other langauges. What is/are the difference/differences?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Python has Global Interpretor Lock(GIL) which is well-known performance bottleneck of the language. &lt;a href=&quot;https://realpython.com/python-gil/&quot;&gt;GIL allows only one thread to execute at a time even in multi-threaded arcitecture with more than one CPU Core.&lt;/a&gt;&lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
     position: relative;
@@ -8568,6 +8603,193 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     opacity: 0.7;
   }
   
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Fixing Pylance Import Error]]></title><description><![CDATA[Problem For some time, I've been facing this issue on my Jupyter Notebook files.  This error was frustrating for the following reasons. The…]]></description><link>https://snoop2head.github.io/Configs/Fixing-Pylance-Import-Error/</link><guid isPermaLink="false">https://snoop2head.github.io/Configs/Fixing-Pylance-Import-Error/</guid><pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;problem&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#problem&quot; aria-label=&quot;problem permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Problem&lt;/h2&gt;
+&lt;p&gt;For some time, I&apos;ve been facing this issue on my Jupyter Notebook files.&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;Import &amp;quot;torch&amp;quot; could not be resolved Pylance(reportMissingImports)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+UlEQVQY042P207CUBBF+ydIUkF6OS09Pb3fi1BQA0j8/09ZTvXRoD6s7IeZ7FljFeZIGJcU9YCKMuKs+cowqQkEFVdswpTFOuBhZuWzsN07OFjK1HhRiS5HomLEMy2BLlBJxyYdcbMda91g6w47rLHdmKWULlfqJ48+1lBdMf0ZPd5wkhEn7glMg8l7se3Iqp0cqHjyDI5K2KgUJ8juYg35hWH3wmF6o2knynwiEjtfStxtIUs53rbEjyqh/BNrX37Qjyem45nj6zv7w5VhuPB8upHlB0Kx9aR4Lv3O37G2uhWjRt5r0ZJGMsk74rRlnikxnRf/YzfzCRf0wV4udK6SAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Screen Shot 2021-08-09 at 2.56.39 PM&quot;
+        title=&quot;Screen Shot 2021-08-09 at 2.56.39 PM&quot;
+        src=&quot;/static/f91214e3221545d5d65b5817ec777117/c1b63/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png&quot;
+        srcset=&quot;/static/f91214e3221545d5d65b5817ec777117/5a46d/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png 300w,
+/static/f91214e3221545d5d65b5817ec777117/0a47e/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png 600w,
+/static/f91214e3221545d5d65b5817ec777117/c1b63/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png 1200w,
+/static/f91214e3221545d5d65b5817ec777117/b2b2c/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png 1708w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This error was frustrating for the following reasons.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The error appears on some Jupyter Notebooks but sometimes it doesn&apos;t.&lt;/li&gt;
+&lt;li&gt;Packages like Django didn&apos;t have such errors. But when I used torch, this error frequently arose.&lt;/li&gt;
+&lt;li&gt;This means I don&apos;t get any suggestion right next to &lt;code&gt;nn.&lt;/code&gt; on vscode. Missing autocomplete feature while scripting in torch was a nusiance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So I double-checked my VSCode and Python environment.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;torch library was properly installed as expected.&lt;/li&gt;
+&lt;li&gt;I already selected proper python interpreter for that jupyter kernal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;diagnosis&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#diagnosis&quot; aria-label=&quot;diagnosis permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Diagnosis&lt;/h2&gt;
+&lt;p&gt;To begin with, I had to understand what Pylance was. &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&quot;&gt;Pylance is useful extension in VSCode.&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Pylance helps autocompletion when working in Python.&lt;/li&gt;
+&lt;li&gt;You can check what is under the hood for the imported library while pressing CMD key.&lt;/li&gt;
+&lt;li&gt;It is faster than Jedi and is compatible for Jupyter Notebook.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I suspected that my Python version management environment pyenv could be the source of the problem.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I didn&apos;t install torch library for my local Python 3.8.3.&lt;/li&gt;
+&lt;li&gt;I previously installed Django library on my local Python 3.8.3. This explains why Pylance was able to detect Django classes but not Pytorch classes.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;I used pyenv to separate virtual environments on my laptop.&lt;/a&gt; My pyenv virtual environment did have torch library.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I realized that Pylance was connected to my local Python 3.8.3, not to my virtual environment.&lt;/p&gt;
+&lt;p&gt;Thus I added &lt;code&gt;.vscode/config.json&lt;/code&gt; file to my working directory. This file will inform my Pylance library to look for which Python to connect to.&lt;/p&gt;
+&lt;img src=&quot;../assets/images/2021-08-09-Fixing-Pylance-Import-Error/image-20210809144433338.png&quot; alt=&quot;image-20210809144433338&quot; style=&quot;zoom:33%;&quot; /&gt;
+&lt;p&gt;I added path of my pyenv virutalenvironment to &lt;code&gt;.vscode/config.json&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;json&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;&amp;quot;python.analysis.extraPaths&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: [&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;/Users/noopy/.pyenv/versions/3.8.3/envs/aitech/lib/python3.8&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  ]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Now it works!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABl0lEQVQoz42S2W7bMBBF9SMtmji2VpLiJlGUZFkWnNZBthZ97P//xu2QMuCgCZA+HMxwSF5eDpn8Pin4zqPSI0ppsC0kdqXEphDYZByb/A2X8W22EvOU42bHLnAkVkuUJJYrB9EbsM6gbDUKq7ATNTIpY0zr+hq5wLYSyFQ4mOPrpox82zIk3XTGtDxCdT14FLSoSDBsLIyKwlWjkWtFh8pYC3k4KK3XcYihFlwn1s/o9ifofoSaG+jZQe6buKC0GsyR42Z1HDaHPDiL85SHNbc5I7H12onSBxy6F1TSrRuNJkcmuglXu6v4NYo1bsOV2XUuCH65yVdBY46YHQmKDnUzoFId4ZAy/fGjEHe5eP9IaRjXSIQZYf0CpqmHpofQHqodUVMu7RAJeYDrLqKa63xt17pu9xQ99dAuWPwLhH9AMT5Fp0x65KJFxhoUFAvhLrRvcP+w1hLf/MDz+Afj9Ijj+ReOp5+YD68Ypge48Tu4GsBU/9/EHk7uCdYtJHCPdjjBDffw9J38cIZpjtRTT657ejj/KX8Bt4U7vQOY6ksAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Screen Shot 2021-08-09 at 2.18.39 PM&quot;
+        title=&quot;Screen Shot 2021-08-09 at 2.18.39 PM&quot;
+        src=&quot;/static/cd2bb282373c4e0db2bfd3db952b72a8/c1b63/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png&quot;
+        srcset=&quot;/static/cd2bb282373c4e0db2bfd3db952b72a8/5a46d/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png 300w,
+/static/cd2bb282373c4e0db2bfd3db952b72a8/0a47e/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png 600w,
+/static/cd2bb282373c4e0db2bfd3db952b72a8/c1b63/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png 1200w,
+/static/cd2bb282373c4e0db2bfd3db952b72a8/05244/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png 1752w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;FYI, If you don&apos;t want to go through such procedures, you can just install torch library for your local python environment. Then Pylance will be able to detect based on that package you installed on the local python. However, I didn&apos;t want to install any packages on my local python environment being afraid of version collision between NLP and Computer Vision projects. Thus I chose the method above instead.&lt;/p&gt;
+&lt;h3 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/microsoft/pylance-release/blob/main/TROUBLESHOOTING.md#unresolved-import-warnings&quot;&gt;MS Pylance Trouble Shooting Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+  .one-dark-pro {
+    background-color: #282c34;
+    color: #abb2bf;
+  }
+  .one-dark-pro .mtk1 { color: #ABB2BF; }
+  .one-dark-pro .mtk4 { color: #E06C75; }
+  .one-dark-pro .mtk6 { color: #98C379; }
+  .one-dark-pro .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
+  }
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[Neural Networks]]></title><description><![CDATA[Definition of Neural Networks Neural Networks are function approximations that stack affine transformations followed by non-linear…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Neural-Networks/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Neural-Networks/</guid><pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;definition-of-neural-networks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#definition-of-neural-networks&quot; aria-label=&quot;definition of neural networks permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Definition of Neural Networks&lt;/h3&gt;
 &lt;p&gt;Neural Networks are function approximations that stack affine transformations followed by non-linear transformations. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/5176/1*ZFPOSAted10TPd3hBQU8iQ.png&quot; alt=&quot;Review: GoogLeNet (Inception v1)— Winner of ILSVRC 2014 (Image  Classification) | by Sik-Ho Tsang | Coinmonks | Medium&quot;&gt;&lt;/p&gt;
@@ -8817,193 +9039,6 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Fixing Pylance Import Error]]></title><description><![CDATA[Problem For some time, I've been facing this issue on my Jupyter Notebook files.  This error was frustrating for the following reasons. The…]]></description><link>https://snoop2head.github.io/Configs/Fixing-Pylance-Import-Error/</link><guid isPermaLink="false">https://snoop2head.github.io/Configs/Fixing-Pylance-Import-Error/</guid><pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;problem&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#problem&quot; aria-label=&quot;problem permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Problem&lt;/h2&gt;
-&lt;p&gt;For some time, I&apos;ve been facing this issue on my Jupyter Notebook files.&lt;/p&gt;
-&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;Import &amp;quot;torch&amp;quot; could not be resolved Pylance(reportMissingImports)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 27.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+UlEQVQY042P207CUBBF+ydIUkF6OS09Pb3fi1BQA0j8/09ZTvXRoD6s7IeZ7FljFeZIGJcU9YCKMuKs+cowqQkEFVdswpTFOuBhZuWzsN07OFjK1HhRiS5HomLEMy2BLlBJxyYdcbMda91g6w47rLHdmKWULlfqJ48+1lBdMf0ZPd5wkhEn7glMg8l7se3Iqp0cqHjyDI5K2KgUJ8juYg35hWH3wmF6o2knynwiEjtfStxtIUs53rbEjyqh/BNrX37Qjyem45nj6zv7w5VhuPB8upHlB0Kx9aR4Lv3O37G2uhWjRt5r0ZJGMsk74rRlnikxnRf/YzfzCRf0wV4udK6SAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Screen Shot 2021-08-09 at 2.56.39 PM&quot;
-        title=&quot;Screen Shot 2021-08-09 at 2.56.39 PM&quot;
-        src=&quot;/static/f91214e3221545d5d65b5817ec777117/c1b63/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png&quot;
-        srcset=&quot;/static/f91214e3221545d5d65b5817ec777117/5a46d/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png 300w,
-/static/f91214e3221545d5d65b5817ec777117/0a47e/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png 600w,
-/static/f91214e3221545d5d65b5817ec777117/c1b63/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png 1200w,
-/static/f91214e3221545d5d65b5817ec777117/b2b2c/Screen%20Shot%202021-08-09%20at%202.56.39%20PM.png 1708w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;This error was frustrating for the following reasons.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The error appears on some Jupyter Notebooks but sometimes it doesn&apos;t.&lt;/li&gt;
-&lt;li&gt;Packages like Django didn&apos;t have such errors. But when I used torch, this error frequently arose.&lt;/li&gt;
-&lt;li&gt;This means I don&apos;t get any suggestion right next to &lt;code&gt;nn.&lt;/code&gt; on vscode. Missing autocomplete feature while scripting in torch was a nusiance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So I double-checked my VSCode and Python environment.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;torch library was properly installed as expected.&lt;/li&gt;
-&lt;li&gt;I already selected proper python interpreter for that jupyter kernal.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;diagnosis&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#diagnosis&quot; aria-label=&quot;diagnosis permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Diagnosis&lt;/h2&gt;
-&lt;p&gt;To begin with, I had to understand what Pylance was. &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance&quot;&gt;Pylance is useful extension in VSCode.&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Pylance helps autocompletion when working in Python.&lt;/li&gt;
-&lt;li&gt;You can check what is under the hood for the imported library while pressing CMD key.&lt;/li&gt;
-&lt;li&gt;It is faster than Jedi and is compatible for Jupyter Notebook.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I suspected that my Python version management environment pyenv could be the source of the problem.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I didn&apos;t install torch library for my local Python 3.8.3.&lt;/li&gt;
-&lt;li&gt;I previously installed Django library on my local Python 3.8.3. This explains why Pylance was able to detect Django classes but not Pytorch classes.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;I used pyenv to separate virtual environments on my laptop.&lt;/a&gt; My pyenv virtual environment did have torch library.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;I realized that Pylance was connected to my local Python 3.8.3, not to my virtual environment.&lt;/p&gt;
-&lt;p&gt;Thus I added &lt;code&gt;.vscode/config.json&lt;/code&gt; file to my working directory. This file will inform my Pylance library to look for which Python to connect to.&lt;/p&gt;
-&lt;img src=&quot;../assets/images/2021-08-09-Fixing-Pylance-Import-Error/image-20210809144433338.png&quot; alt=&quot;image-20210809144433338&quot; style=&quot;zoom:33%;&quot; /&gt;
-&lt;p&gt;I added path of my pyenv virutalenvironment to &lt;code&gt;.vscode/config.json&lt;/code&gt;.&lt;/p&gt;
-&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;json&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;&amp;quot;python.analysis.extraPaths&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: [&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;/Users/noopy/.pyenv/versions/3.8.3/envs/aitech/lib/python3.8&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  ]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Now it works!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 49.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABl0lEQVQoz42S2W7bMBBF9SMtmji2VpLiJlGUZFkWnNZBthZ97P//xu2QMuCgCZA+HMxwSF5eDpn8Pin4zqPSI0ppsC0kdqXEphDYZByb/A2X8W22EvOU42bHLnAkVkuUJJYrB9EbsM6gbDUKq7ATNTIpY0zr+hq5wLYSyFQ4mOPrpox82zIk3XTGtDxCdT14FLSoSDBsLIyKwlWjkWtFh8pYC3k4KK3XcYihFlwn1s/o9ifofoSaG+jZQe6buKC0GsyR42Z1HDaHPDiL85SHNbc5I7H12onSBxy6F1TSrRuNJkcmuglXu6v4NYo1bsOV2XUuCH65yVdBY46YHQmKDnUzoFId4ZAy/fGjEHe5eP9IaRjXSIQZYf0CpqmHpofQHqodUVMu7RAJeYDrLqKa63xt17pu9xQ99dAuWPwLhH9AMT5Fp0x65KJFxhoUFAvhLrRvcP+w1hLf/MDz+Afj9Ijj+ReOp5+YD68Ypge48Tu4GsBU/9/EHk7uCdYtJHCPdjjBDffw9J38cIZpjtRTT657ejj/KX8Bt4U7vQOY6ksAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Screen Shot 2021-08-09 at 2.18.39 PM&quot;
-        title=&quot;Screen Shot 2021-08-09 at 2.18.39 PM&quot;
-        src=&quot;/static/cd2bb282373c4e0db2bfd3db952b72a8/c1b63/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png&quot;
-        srcset=&quot;/static/cd2bb282373c4e0db2bfd3db952b72a8/5a46d/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png 300w,
-/static/cd2bb282373c4e0db2bfd3db952b72a8/0a47e/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png 600w,
-/static/cd2bb282373c4e0db2bfd3db952b72a8/c1b63/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png 1200w,
-/static/cd2bb282373c4e0db2bfd3db952b72a8/05244/Screen%20Shot%202021-08-09%20at%202.18.39%20PM.png 1752w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;FYI, If you don&apos;t want to go through such procedures, you can just install torch library for your local python environment. Then Pylance will be able to detect based on that package you installed on the local python. However, I didn&apos;t want to install any packages on my local python environment being afraid of version collision between NLP and Computer Vision projects. Thus I chose the method above instead.&lt;/p&gt;
-&lt;h3 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/microsoft/pylance-release/blob/main/TROUBLESHOOTING.md#unresolved-import-warnings&quot;&gt;MS Pylance Trouble Shooting Reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;style class=&quot;grvsc-styles&quot;&gt;
-  .grvsc-container {
-    overflow: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    padding-top: 1rem;
-    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
-    padding-bottom: 1rem;
-    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
-    border-radius: 8px;
-    border-radius: var(--grvsc-border-radius, 8px);
-    font-feature-settings: normal;
-    line-height: 1.4;
-  }
-  
-  .grvsc-code {
-    display: table;
-  }
-  
-  .grvsc-line {
-    display: table-row;
-    box-sizing: border-box;
-    width: 100%;
-    position: relative;
-  }
-  
-  .grvsc-line &gt; * {
-    position: relative;
-  }
-  
-  .grvsc-gutter-pad {
-    display: table-cell;
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  .grvsc-gutter {
-    display: table-cell;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter::before {
-    content: attr(data-content);
-  }
-  
-  .grvsc-source {
-    display: table-cell;
-    padding-left: 1.5rem;
-    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
-    padding-right: 1.5rem;
-    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
-  }
-  
-  .grvsc-source:empty::after {
-    content: &apos; &apos;;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter + .grvsc-source {
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  /* Line transformer styles */
-  
-  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
-    content: &apos; &apos;;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .grvsc-line-diff-add::before {
-    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
-  }
-  
-  .grvsc-line-diff-del::before {
-    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
-  }
-  
-  .grvsc-line-number {
-    padding: 0 2px;
-    text-align: right;
-    opacity: 0.7;
-  }
-  
-  .one-dark-pro {
-    background-color: #282c34;
-    color: #abb2bf;
-  }
-  .one-dark-pro .mtk1 { color: #ABB2BF; }
-  .one-dark-pro .mtk4 { color: #E06C75; }
-  .one-dark-pro .mtk6 { color: #98C379; }
-  .one-dark-pro .grvsc-line-highlighted::before {
-    background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
-    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
-  }
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[Book Recommendation for DL & ML]]></title><description><![CDATA[My Bookshelf  Math Introduction to Linear Algebra by Gilbert Strang Linear Algebra and its applications by Gilbert Strang Difficulty…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Book-Recommendation-for-DL-&amp;-ML/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Book-Recommendation-for-DL-&amp;-ML/</guid><pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;my-bookshelf&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#my-bookshelf&quot; aria-label=&quot;my bookshelf permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;My Bookshelf&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
