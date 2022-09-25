@@ -1,18 +1,15 @@
-import React, { useState } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import Markdown from "../components/Markdown"
 import Layout from "../components/Layout"
 import Divider from "../components/Divider"
-import Tags from "../components/Tags"
 import tw from "twin.macro"
 const Wrapper = tw.div`w-full max-w-screen-md mx-auto`
 
 export default ({ data }) => {
   const resumes = data.allMarkdownRemark.edges
-  const [currentHeaderUrl, setCurrentHeaderUrl] = useState(undefined)
-
   const resume = resumes
-    .filter((resume) => resume.node.frontmatter.title === "Resume")
+    .filter((resume) => resume.node.frontmatter.title === "Portfolio")
     .map(({ node }) => node)[0]
 
   return (

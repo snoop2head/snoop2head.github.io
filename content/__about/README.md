@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "Portfolio"
 date: 2021-09-25
 tags: ["Portfolio"]
 draft: true
@@ -7,7 +7,7 @@ draft: true
 
 ## 📖 Education
 
-### Yonsei University
+### Yonsei University, Seoul Campus
 
 <details>
 <summary> Bachelor of Economics (Major) & Applied Statistics (Minor)</summary>
@@ -26,15 +26,22 @@ draft: true
   </ul>
 </details>
 
+**Student Clubs**
+
+- [GDSC Yonsei University Seoul Campus, ML Core](https://github.com/gdsc-ys/)
+- [Computer Science Club PoolC, Academics Manager](https://github.com/poolc)
+
+---
+
 ## 🏆 Competition Awards
 
-|                         Topic / Task                         |       Result        |
-| :----------------------------------------------------------: | :-----------------: |
-| [Machine Reading <br />Compehension](https://github.com/QuoQA-NLP/MRC_Baseline) | 🥈 2nd <br />(2/26)  |
-| [Korean Standard <br />Industry Classification](https://data.kostat.go.kr/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000025000&curMenuNo=OPT_09_02_00_0) | 🎖 7th <br />(7/311) |
-| [KLUE benchmark <br />Natural Language Inference](https://dacon.io/competitions/official/235875/codeshare/4589) | 🥇 1st <br />(1/468) |
-| [Python Code<br />Clone Detection](https://github.com/sangHa0411/CloneDetection) | 🥉 3rd <br />(3/337) |
-| [Stock Price Forecast<br />on KOSPI & KOSDAQ](https://github.com/snoop2head/elastic-stock-prediction) | 🎖 6th <br />(6/205) |
+|                                                                       Topic / Task                                                                        |        Result        |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------: |
+|                                      [Machine Reading <br />Compehension](https://github.com/QuoQA-NLP/MRC_Baseline)                                      | 🥈 2nd <br />(2/26)  |
+| [Korean Standard <br />Industry Classification](https://data.kostat.go.kr/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000025000&curMenuNo=OPT_09_02_00_0) | 🎖 7th <br />(7/311)  |
+|                      [KLUE benchmark <br />Natural Language Inference](https://dacon.io/competitions/official/235875/codeshare/4589)                      | 🥇 1st <br />(1/468) |
+|                                     [Python Code<br />Clone Detection](https://github.com/sangHa0411/CloneDetection)                                      | 🥉 3rd <br />(3/337) |
+|                           [Stock Price Forecast<br />on KOSPI & KOSDAQ](https://github.com/snoop2head/elastic-stock-prediction)                           | 🎖 6th <br />(6/205)  |
 
 \*\*Dacon is Kaggle alike competition platform in Korea.
 
