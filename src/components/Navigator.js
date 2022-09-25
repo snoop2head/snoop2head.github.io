@@ -49,7 +49,7 @@ const Navigator = ({ pageContext }) => {
                     : whiteModeColor.textColor1};
                 `}
               >
-                이전 포스트
+                Previous Post
               </p>
               <p>
                 {previous.frontmatter.title.length > 60
@@ -92,7 +92,7 @@ const Navigator = ({ pageContext }) => {
                     : whiteModeColor.textColor1};
                 `}
               >
-                다음 포스트
+                Next Post
               </p>
               <p>
                 {next.frontmatter.title.length > 60

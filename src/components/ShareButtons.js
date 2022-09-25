@@ -116,12 +116,6 @@ const ShareButtons = ({ url, text }) => {
       </div>
       <div css={tw`flex flex-wrap justify-end mt-4 px-2`}>
         <ShareButton
-          color={"#2D87FD"}
-          icon={<FaFacebookF css={tw`fill-current my-auto mr-1`} />}
-          target={"Facebook"}
-          onClick={onFackebookClick}
-        />
-        <ShareButton
           color={"#1CA1F2"}
           icon={<FaTwitter css={tw`fill-current my-auto mr-1`} />}
           target={"Twitter"}
@@ -130,7 +124,7 @@ const ShareButtons = ({ url, text }) => {
         <ShareButton
           color={"#6E7783"}
           icon={<FaLink css={tw`fill-current my-auto mr-1`} />}
-          target={"Url"}
+          target={"URL"}
           onClick={onUrlClick}
         />
       </div>
@@ -147,7 +141,7 @@ const ShareButtons = ({ url, text }) => {
           `}
         >
           <FaInfo css={tw`fill-current mr-2`} />
-          <div css={tw`ml-2`}>링크가 복사 되었습니다.</div>
+          <div css={tw`ml-2`}>Copied Link to your Clipboard!</div>
         </div>
       )}
     </div>
