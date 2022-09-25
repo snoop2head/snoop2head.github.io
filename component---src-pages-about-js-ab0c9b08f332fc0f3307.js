@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{"3XHS":function(t,n,e){"use strict";e.r(n);e("q1tI");var a=e("qKvR");n.default=function(t){var n=t.data.allMarkdownRemark.edges.map((function(t){return t.node}))[0];return Object(a.c)("div",{style:{marginLeft:"auto",marginRight:"auto"}},Object(a.c)("div",{dangerouslySetInnerHTML:{__html:n.html}}))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-ab0c9b08f332fc0f3307.js.map
