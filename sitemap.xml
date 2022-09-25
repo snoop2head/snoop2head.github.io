@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://snoop2head.github.io/DL&amp;ML/Book-Recommendation-for-DL-ML/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/CS/Python-language-structure/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Dacon-Result/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/Configs/VSCode-ssh/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Relation-Extraction-Code/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Relation-Extraction/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/Configs/VSCode-Configuration/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Dacon-Stock-Price-Competition/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/NLP-Clipboard/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Mask-Age-Gender-Classification-Competition/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/List-of-My-Questions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/Others/My-Studying-Routine/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/Configs/Github-Authentication-Breaking-Change/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Classifying-MNIST-Using-Mini-batch-CNN-Model-Built-on-Pytorch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Deep-Learning-Concepts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Neural-Networks/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/Configs/Fixing-Pylance-Import-Error/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Book-Recommendation-for-DL-&amp;-ML/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Gradient-Descent-on-1D-loss-function/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Week-1-Table-of-Contents/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/DL&amp;ML/Professor-Lim&#039;s-Master-Class/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/Others/Blog&#039;s-Purpose/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/CS/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Configs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/DL&amp;ML/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
