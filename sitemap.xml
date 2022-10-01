@@ -14,9 +14,11 @@
 <url> <loc>https://snoop2head.github.io/Configuring/Github-Authentication-Breaking-Change/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Configuring/My-Studying-Routine/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Engineering/Classifying-MNIST-Using-Mini-batch-CNN-Model-Built-on-Pytorch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/Researching/Deep-Learning-Concepts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Engineering/Neural-Networks/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Configuring/Fixing-Pylance-Import-Error/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Researching/Book-Recommendation-for-DL-&amp;-ML/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://snoop2head.github.io/Researching/Gradient-Descent-on-1D-loss-function/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Engineering/Week-1-Table-of-Contents/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Configuring/Professor-Lim&#039;s-Master-Class/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Configuring/Blog&#039;s-Purpose/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -24,8 +26,6 @@
 <url> <loc>https://snoop2head.github.io/Engineering/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Managing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/Researching/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://snoop2head.github.io/Researching/Deep-Learning-Concepts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://snoop2head.github.io/Researching/Gradient-Descent-on-1D-loss-function/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://snoop2head.github.io/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
