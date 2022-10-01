@@ -1,5 +1,5 @@
 ---
-title: "Classification Competition Wrap up report 1"
+title: "Multiclass Classification Competition Wrap up report"
 date: 2021-09-04
 tags: ["ComputerVision", "Competition"]
 draft: false
@@ -634,7 +634,7 @@ def show_images(pred_result_iter, n=5, rows = 1, cols = 5, title = 'Default'):
     plt.title("label:%s"%(label))
 
 pred_result_iter = iter(pred_result)
-show_images(pred_result_iter, n=50, rows=5, cols= 10, title='Test Sample')  
+show_images(pred_result_iter, n=50, rows=5, cols= 10, title='Test Sample')
 ```
 
 ## Should have?
