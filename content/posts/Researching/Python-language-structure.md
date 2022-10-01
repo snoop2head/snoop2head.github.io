@@ -1,7 +1,7 @@
 ---
 title: "Python Language Structure"
 date: 2022-09-23
-tags: ["GDSC"]
+tags: ["GDSC", "CS"]
 draft: false
 ---
 
@@ -29,4 +29,3 @@ pypy is one type of the interpreter that is known to be faster than CPython. IT 
 **Q14-1. Python's multi thread programming works differently compared to other langauges. What is/are the difference/differences?**
 
 Python has Global Interpretor Lock(GIL) which is well-known performance bottleneck of the language. [GIL allows only one thread to execute at a time even in multi-threaded arcitecture with more than one CPU Core.](https://realpython.com/python-gil/)
-
