@@ -62,11 +62,11 @@ Goal is to classify Age Range, Biological Sex, Face Mask
 - Females outnumbered males (1700 females vs 1000 males)
 - There were 200 individuals that were Age of 60 out of total 2700 individuals. They were the only individuals that consisted of the Class 60 and Above.
 
-<img height="250" width="500" alt="image" src="../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/Untitled.png">
+<img height="250" width="500" alt="image" src="./image/Mask-Age-Gender-Classification-Competition/Untitled.png">
 
-<img height="250" width="600" alt="image" src="../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/Untitled 1.png">
+<img height="250" width="600" alt="image" src="./image/Mask-Age-Gender-Classification-Competition/Untitled 1.png">
 
-<img height="250" width="600" alt="image" src="../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/Untitled 2.png">
+<img height="250" width="600" alt="image" src="./image/Mask-Age-Gender-Classification-Competition/Untitled 2.png">
 
 - Class of 60 and Above are consisted of only 17% of the total dataset.
 - Mask Class is distributed as Wear 7 : Incorrect 1 : Not Wear 1
@@ -78,7 +78,7 @@ Goal is to classify Age Range, Biological Sex, Face Mask
 
 I decided to use FocalLoss in order to resolve such class imbalance. Compared to cross entropy loss, Focal Loss was purported to reduce the proportion of background on the training image which definitely outnumbered the size of the objects in the dataset. **Focal Loss with gamma value of 5 outperformed Cross Entropy Loss.**
 
-<img height="300" width="500" alt="image" src="../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/Untitled 4.png">
+<img height="300" width="500" alt="image" src="./image/Mask-Age-Gender-Classification-Competition/Untitled 4.png">
 
 ```python
 class FocalLoss(nn.Module):
@@ -105,9 +105,9 @@ class FocalLoss(nn.Module):
 - [Using the MaskTheFace opensource project](https://github.com/aqeelanwar/MaskTheFace), User can arbitrarily choose the color, color weight, patterns and the types of mask.
 - **From two open-source projects, I constructed external dataset like the following:**
 
-|                                              normal                                              |                                                     mask1                                                      |                                                     mask2                                                      |                                                       mask3                                                        |                                                          mask4                                                           |                                                mask5                                                 |
-| :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-| ![12792A62](../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/12792A62.jpg) | ![12792A62_KN95_5](../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/12792A62_KN95_5.jpg) | ![12792A62_N95_64](../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/12792A62_N95_64.jpg) | ![12792A62_cloth_16](../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/12792A62_cloth_16.jpg) | ![12792A62_surgical_63](../assets/images/2021-09-04-Mask-Age-Gender-Classification-Competition/12792A62_surgical_63.jpg) | ![12792A62_surgical_31](./image/Mask-Age-Gender-Classification-Competition/12792A62_surgical_31.jpg) |
+|                                    normal                                    |                                           mask1                                            |                                           mask2                                            |                                             mask3                                              |                                                mask4                                                 |                                                mask5                                                 |
+| :--------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+| ![12792A62](./image/Mask-Age-Gender-Classification-Competition/12792A62.jpg) | ![12792A62_KN95_5](./image/Mask-Age-Gender-Classification-Competition/12792A62_KN95_5.jpg) | ![12792A62_N95_64](./image/Mask-Age-Gender-Classification-Competition/12792A62_N95_64.jpg) | ![12792A62_cloth_16](./image/Mask-Age-Gender-Classification-Competition/12792A62_cloth_16.jpg) | ![12792A62_surgical_63](./image/Mask-Age-Gender-Classification-Competition/12792A62_surgical_63.jpg) | ![12792A62_surgical_31](./image/Mask-Age-Gender-Classification-Competition/12792A62_surgical_31.jpg) |
 
 - By adding 646 males and 620 females who were age 60 and above, I thought this would have helped the model's performance on age classification.
 - The format of the added image folder, the format of the added image information on `train.csv` adhered to according to the competition's provided format.
@@ -616,29 +616,27 @@ Ever since the beginning, note823 has been attaching two fully connected layers 
 
 - **Visualization mattered a lot.** It was essential to check the model's performance. Checking labels as such code enabled the model has been evaluated properly or not.
 
-  ```python
-  pred_result_iter = iter(pred_result)
-  def show_images(pred_result_iter, n=5, rows = 1, cols = 5, title = 'Default'):
-      plt.figure(figsize=(16,10))
-      plt.suptitle(title, fontsize = 16)
-  #     sampleList = random.sample(paths, n)
-  
-      for k in range(n):
-          img, label = next(pred_result_iter)
-  
-          label = label.cpu().numpy()[0]
-          img = Image.open(img[0])
+```python
+def show_images(pred_result_iter, n=5, rows = 1, cols = 5, title = 'Default'):
+  plt.figure(figsize=(16,10))
+  plt.suptitle(title, fontsize = 16)
 
+  for k in range(n):
+    img, label = next(pred_result_iter)
 
-          plt.subplot(rows, cols, k+1)
-          plt.imshow(img)
-          plt.axis('off')
-    
-          plt.title("label:%s"%(label))
+    label = label.cpu().numpy()[0]
+    img = Image.open(img[0])
 
-  show_images(pred_result_iter, n=50, rows=5, cols= 10, title='Test Sample')
-  ```
+    plt.subplot(rows, cols, k+1)
+    plt.imshow(img)
+    plt.axis('off')
 
-## `Should have`?
+    plt.title("label:%s"%(label))
+
+pred_result_iter = iter(pred_result)
+show_images(pred_result_iter, n=50, rows=5, cols= 10, title='Test Sample')  
+```
+
+## Should have?
 
 - Checking the original label of the dataset should be prioritized rather than attaching the foreign dataset. [Team 8 was impressive in terms of using 5-fold trained BEiT models to predict the out-of-folds, check the conflicting votes which is regarded as wrong label.](https://github.com/jinmang2/boostcamp_ai_tech_2/blob/main/assets/ppt/palettai.pdf)
