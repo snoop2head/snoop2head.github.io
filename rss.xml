@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[snoop2head's blog]]></title><description><![CDATA[break, compose, display]]></description><link>https://snoop2head.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Oct 2022 03:47:56 GMT</lastBuildDate><item><title><![CDATA[Python Language Structure]]></title><description><![CDATA[In the GDSC Yonsei Seoul session held at September 20th, Computer Science & Engineering Basic Knowledge Test was tested on all of the…]]></description><link>https://snoop2head.github.io/CS/Python-language-structure/</link><guid isPermaLink="false">https://snoop2head.github.io/CS/Python-language-structure/</guid><pubDate>Fri, 23 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In the GDSC Yonsei Seoul session held at September 20th, Computer Science &amp;#x26; Engineering Basic Knowledge Test was tested on all of the members. There were total 16 questions regarding Data Structure, Computer Architecture, Operating System and Network.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[snoop2head's blog]]></title><description><![CDATA[break, compose, display]]></description><link>https://snoop2head.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Oct 2022 04:06:46 GMT</lastBuildDate><item><title><![CDATA[Python Language Structure]]></title><description><![CDATA[In the GDSC Yonsei Seoul session held at September 20th, Computer Science & Engineering Basic Knowledge Test was tested on all of the…]]></description><link>https://snoop2head.github.io/Researching/Python-language-structure/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Python-language-structure/</guid><pubDate>Fri, 23 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In the GDSC Yonsei Seoul session held at September 20th, Computer Science &amp;#x26; Engineering Basic Knowledge Test was tested on all of the members. There were total 16 questions regarding Data Structure, Computer Architecture, Operating System and Network.&lt;/p&gt;
 &lt;p&gt;I found that basics on Python language necessary for me to study on. After the session, I purchased &lt;a href=&quot;https://realpython.com/products/cpython-internals-book/&quot;&gt;CPython Internals Book&lt;/a&gt; published by Real Python to continue the endeavor.&lt;/p&gt;
 &lt;h3 id=&quot;q10-state-the-differences-between-compiled-languages-and-interpreted-languages&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#q10-state-the-differences-between-compiled-languages-and-interpreted-languages&quot; aria-label=&quot;q10 state the differences between compiled languages and interpreted languages permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Q10. State the differences between compiled languages and interpreted languages&lt;/h3&gt;
 &lt;ul&gt;
@@ -122,7 +122,7 @@
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Customizing Question Answering Reader Model]]></title><description><![CDATA[👍 F1 score of 79.650 ranked the 5th place / 19 teams 💪 Exact Match score of 66.670 ranked 10th place / 19 teams  For Performance and…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Custom-MRC-Reader/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Custom-MRC-Reader/</guid><pubDate>Thu, 04 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;👍 &lt;strong&gt;F1 score of 79.650 ranked the 5th place / 19 teams&lt;/strong&gt;&lt;/p&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Customizing Question Answering Reader Model]]></title><description><![CDATA[👍 F1 score of 79.650 ranked the 5th place / 19 teams 💪 Exact Match score of 66.670 ranked 10th place / 19 teams  For Performance and…]]></description><link>https://snoop2head.github.io/Engineering/Custom-MRC-Reader/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Custom-MRC-Reader/</guid><pubDate>Thu, 04 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;👍 &lt;strong&gt;F1 score of 79.650 ranked the 5th place / 19 teams&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;💪 &lt;strong&gt;Exact Match score of 66.670 ranked 10th place / 19 teams&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1120,7 +1120,7 @@
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Assessment on the Dacon’s Stock Price Prediction Competition]]></title><description><![CDATA[🥈 NMAE score of 4.44 ranked the 2nd place / 29 teams 🔗 Team's Github Repository 🔗 Dacon Stock Price Competition Page  Leaderboard Shake…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Dacon-Result/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Dacon-Result/</guid><pubDate>Mon, 25 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;🥈 NMAE score of 4.44 ranked the 2nd place / 29 teams&lt;/strong&gt;&lt;/p&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Assessment on the Dacon’s Stock Price Prediction Competition]]></title><description><![CDATA[🥈 NMAE score of 4.44 ranked the 2nd place / 29 teams 🔗 Team's Github Repository 🔗 Dacon Stock Price Competition Page  Leaderboard Shake…]]></description><link>https://snoop2head.github.io/Engineering/Dacon-Result/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Dacon-Result/</guid><pubDate>Mon, 25 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;🥈 NMAE score of 4.44 ranked the 2nd place / 29 teams&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/snoop2head/elastic-stock-prediction&quot;&gt;🔗 Team&apos;s Github Repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://dacon.io/competitions/official/235800/leaderboard&quot;&gt;🔗 Dacon Stock Price Competition Page&lt;/a&gt;&lt;/li&gt;
@@ -1277,7 +1277,7 @@
   }
   
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[Configuration for VSCode and ZSH in Remote Server]]></title><description><![CDATA[Installation when beginning Additional customization for bash Install sudo
-https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></description><link>https://snoop2head.github.io/Configs/VSCode-ssh/</link><guid isPermaLink="false">https://snoop2head.github.io/Configs/VSCode-ssh/</guid><pubDate>Tue, 12 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;installation-when-beginning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#installation-when-beginning&quot; aria-label=&quot;installation when beginning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Installation when beginning&lt;/h3&gt;
+https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></description><link>https://snoop2head.github.io/Configuring/VSCode-ssh/</link><guid isPermaLink="false">https://snoop2head.github.io/Configuring/VSCode-ssh/</guid><pubDate>Tue, 12 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;installation-when-beginning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#installation-when-beginning&quot; aria-label=&quot;installation when beginning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Installation when beginning&lt;/h3&gt;
 &lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;pip install ipywidgets&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;jupyter nbextension &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; --py widgetsnbextension&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;apt install g++ -y&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
@@ -1432,7 +1432,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[RBERT for Relation Extraction: full code & Wandb log]]></title><description><![CDATA[Model Performance and log on weights and biases(wandb) 📈 Train and evaluation logs are visualized in this wandb link   Evaluation loss is…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Relation-Extraction-Code/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Relation-Extraction-Code/</guid><pubDate>Sat, 09 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;model-performance-and-log-on-weights-and-biaseswandb&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#model-performance-and-log-on-weights-and-biaseswandb&quot; aria-label=&quot;model performance and log on weights and biaseswandb permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Model Performance and log on &lt;code&gt;weights and biases(wandb)&lt;/code&gt;&lt;/h2&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[RBERT for Relation Extraction: full code & Wandb log]]></title><description><![CDATA[Model Performance and log on weights and biases(wandb) 📈 Train and evaluation logs are visualized in this wandb link   Evaluation loss is…]]></description><link>https://snoop2head.github.io/Engineering/Relation-Extraction-Code/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Relation-Extraction-Code/</guid><pubDate>Sat, 09 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;model-performance-and-log-on-weights-and-biaseswandb&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#model-performance-and-log-on-weights-and-biaseswandb&quot; aria-label=&quot;model performance and log on weights and biaseswandb permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Model Performance and log on &lt;code&gt;weights and biases(wandb)&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://wandb.ai/snoop2head/KLUE-RE/runs/htwirbkj?workspace=user-snoop2head&quot;&gt;📈 Train and evaluation logs are visualized in this wandb link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -2513,7 +2513,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[KLUE Relation Extraction: Subject Entity and Object Entity]]></title><description><![CDATA[🥇 AUPRC score of 83.2 ranked the 1st place / 19 teams 🥉 F1 score of 73.9 ranked 3rd place / 19 teams KLUE(Korean Language Understanding…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Relation-Extraction/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Relation-Extraction/</guid><pubDate>Fri, 08 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;🥇 AUPRC score of 83.2 ranked the 1st place / 19 teams&lt;/strong&gt;&lt;/p&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[KLUE Relation Extraction: Subject Entity and Object Entity]]></title><description><![CDATA[🥇 AUPRC score of 83.2 ranked the 1st place / 19 teams 🥉 F1 score of 73.9 ranked 3rd place / 19 teams KLUE(Korean Language Understanding…]]></description><link>https://snoop2head.github.io/Engineering/Relation-Extraction/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Relation-Extraction/</guid><pubDate>Fri, 08 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;🥇 AUPRC score of 83.2 ranked the 1st place / 19 teams&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;🥉 F1 score of 73.9 ranked 3rd place / 19 teams&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://paperswithcode.com/dataset/klue&quot;&gt;KLUE(Korean Language Understanding Evaluation) Benchmark&lt;/a&gt; is newly introduced Korean NLP Benchmark. In Naver Boostcamp, the team solved Relation Extraction task from KLUE Benchmark dataset within the span of 12 days.&lt;/p&gt;
 &lt;h2 id=&quot;dataset--dataloader&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dataset--dataloader&quot; aria-label=&quot;dataset  dataloader permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dataset &amp;#x26; Dataloader&lt;/h2&gt;
@@ -3388,7 +3388,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[My VSCode editor settings in JSON format]]></title><description><![CDATA[I had to reconfigure VSCode editor while connecting to the GPU server using ssh. The following configuration has 3 objectives. I had to use…]]></description><link>https://snoop2head.github.io/Configs/VSCode-Configuration/</link><guid isPermaLink="false">https://snoop2head.github.io/Configs/VSCode-Configuration/</guid><pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I had to reconfigure VSCode editor while connecting to the GPU server using ssh.&lt;/p&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[My VSCode editor settings in JSON format]]></title><description><![CDATA[I had to reconfigure VSCode editor while connecting to the GPU server using ssh. The following configuration has 3 objectives. I had to use…]]></description><link>https://snoop2head.github.io/Configuring/VSCode-Configuration/</link><guid isPermaLink="false">https://snoop2head.github.io/Configuring/VSCode-Configuration/</guid><pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I had to reconfigure VSCode editor while connecting to the GPU server using ssh.&lt;/p&gt;
 &lt;p&gt;The following configuration has 3 objectives.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I had to use both Prettier formatter and Black formatter. Prettier formatter is convinient for JSON and other files whereas Black is the popular Python formatter used among Korean developers. So I had to use both of those formatters without collision.&lt;/li&gt;
@@ -3653,7 +3653,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Using ElasticNetCV for Stock Price Prediction]]></title><description><![CDATA[Purpose of participation Stock price prediction is pretty distant from the field of my interest, which is NLP. But there are several purpose…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Dacon-Stock-Price-Competition/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Dacon-Stock-Price-Competition/</guid><pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;purpose-of-participation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#purpose-of-participation&quot; aria-label=&quot;purpose of participation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Purpose of participation&lt;/h3&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Using ElasticNetCV for Stock Price Prediction]]></title><description><![CDATA[Purpose of participation Stock price prediction is pretty distant from the field of my interest, which is NLP. But there are several purpose…]]></description><link>https://snoop2head.github.io/Engineering/Dacon-Stock-Price-Competition/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Dacon-Stock-Price-Competition/</guid><pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;purpose-of-participation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#purpose-of-participation&quot; aria-label=&quot;purpose of participation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Purpose of participation&lt;/h3&gt;
 &lt;p&gt;Stock price prediction is pretty distant from the field of my interest, which is NLP.&lt;/p&gt;
 &lt;p&gt;But there are several purpose that I spent time participating in no-reward competition.&lt;/p&gt;
 &lt;ul&gt;
@@ -7304,7 +7304,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[NLP Clipboard]]></title><description><![CDATA[Why I collect sentences from the other books My favorite Korean genius is Jeong Yakyong(정약용). Jeong Yakyong lived in one of the most…]]></description><link>https://snoop2head.github.io/DL&amp;ML/NLP-Clipboard/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/NLP-Clipboard/</guid><pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;why-i-collect-sentences-from-the-other-books&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-i-collect-sentences-from-the-other-books&quot; aria-label=&quot;why i collect sentences from the other books permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why I collect sentences from the other books&lt;/h2&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[NLP Clipboard]]></title><description><![CDATA[Why I collect sentences from the other books My favorite Korean genius is Jeong Yakyong(정약용). Jeong Yakyong lived in one of the most…]]></description><link>https://snoop2head.github.io/Engineering/NLP-Clipboard/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/NLP-Clipboard/</guid><pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;why-i-collect-sentences-from-the-other-books&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-i-collect-sentences-from-the-other-books&quot; aria-label=&quot;why i collect sentences from the other books permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why I collect sentences from the other books&lt;/h2&gt;
 &lt;p&gt;My favorite Korean genius is Jeong Yakyong(정약용).&lt;/p&gt;
 &lt;p&gt;Jeong Yakyong lived in one of the most turbulent era of Choson Dynasty. He once served right next to the King, took different kinds of positions such as Secret Royal Inspector. He was also an engineer who contributed to build Suwon Hwaseong Fortress. Nevertheless, after being defeated in political power game, he have been overthrown from his government office.&lt;/p&gt;
 &lt;p&gt;But this is not the reason that I spent time knowing about him. After being overthrown from the government office, he was sent to remote countryside to spend more than 18 years. For those lonely 18 years, he begins his second chapter of his lifetime. It is known that he have written more than 1000 books in his exile.&lt;/p&gt;
@@ -7402,7 +7402,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Multiclass Classification Competition Wrap up report]]></title><description><![CDATA[Result ✨ Individual Rank: 32nd / 250 participants 🥉 Team Rank: 11th / 38 teams Task Description Competition participants should identify 1…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Mask-Age-Gender-Classification-Competition/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Mask-Age-Gender-Classification-Competition/</guid><pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;result&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#result&quot; aria-label=&quot;result permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Result&lt;/h2&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Multiclass Classification Competition Wrap up report]]></title><description><![CDATA[Result ✨ Individual Rank: 32nd / 250 participants 🥉 Team Rank: 11th / 38 teams Task Description Competition participants should identify 1…]]></description><link>https://snoop2head.github.io/Engineering/Mask-Age-Gender-Classification-Competition/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Mask-Age-Gender-Classification-Competition/</guid><pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;result&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#result&quot; aria-label=&quot;result permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Result&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;✨ Individual Rank: 32nd / 250 participants&lt;/li&gt;
 &lt;li&gt;🥉 Team Rank: 11th / 38 teams&lt;/li&gt;
@@ -8495,7 +8495,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[List of Unnoticed Questions]]></title><description><![CDATA[Collection of questions of myself and my teammates' captures critical concepts for learning. While learning from certain study materials…]]></description><link>https://snoop2head.github.io/DL&amp;ML/List-of-My-Questions/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/List-of-My-Questions/</guid><pubDate>Tue, 17 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Collection of questions of myself and my teammates&apos; captures critical concepts for learning.&lt;/strong&gt;&lt;/p&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[List of Unnoticed Questions]]></title><description><![CDATA[Collection of questions of myself and my teammates' captures critical concepts for learning. While learning from certain study materials…]]></description><link>https://snoop2head.github.io/Engineering/List-of-My-Questions/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/List-of-My-Questions/</guid><pubDate>Tue, 17 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Collection of questions of myself and my teammates&apos; captures critical concepts for learning.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;While learning from certain study materials, usually there are numerous questions that arise in my head. Due to limitation of the time or lack of interest, only selected few questions are answered within my timespan. However, even if I think that I know for sure, unanswered questions will one day cause trouble. Attempting to answer other people&apos;s questions help to filter out possibly vauge knowledge of mine.&lt;/p&gt;
 &lt;h2 id=&quot;questions-during-pytorch-study&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#questions-during-pytorch-study&quot; aria-label=&quot;questions during pytorch study permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Questions during Pytorch Study&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/Boostcamp-AI-Tech-Team123/meetup-log/wiki/2021-08-11&quot;&gt;https://github.com/Boostcamp-AI-Tech-Team123/meetup-log/wiki/2021-08-11&lt;/a&gt;&lt;/p&gt;
@@ -8699,7 +8699,98 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[My Studying Routine]]></title><description><![CDATA[Working in DL&ML Kitchen In culinary world, what the individual has cooked matters not the other peripherals. Likewise, this is why I value…]]></description><link>https://snoop2head.github.io/Others/My-Studying-Routine/</link><guid isPermaLink="false">https://snoop2head.github.io/Others/My-Studying-Routine/</guid><pubDate>Sat, 14 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;working-in-dlml-kitchen&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#working-in-dlml-kitchen&quot; aria-label=&quot;working in dlml kitchen permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Working in DL&amp;#x26;ML Kitchen&lt;/h3&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Github-Authentication-Breaking-Change.md]]></title><description><![CDATA[Breaking change has affected Github users like me from today and on. Users who are working on remote, such as pushing to remote repo, via…]]></description><link>https://snoop2head.github.io/Configuring/Github-Authentication-Breaking-Change/</link><guid isPermaLink="false">https://snoop2head.github.io/Configuring/Github-Authentication-Breaking-Change/</guid><pubDate>Sat, 14 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Breaking change has affected Github users like me from today and on. Users who are working on remote, such as pushing to remote repo, &lt;a href=&quot;https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/&quot;&gt;via Command line interface or 3rd party app will have to go through authentication process&lt;/a&gt; for security purpose. Github Desktop Application users remain unaffected by this change.&lt;/p&gt;
+&lt;p&gt;Solution was pretty simple which was &lt;a href=&quot;https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git&quot;&gt;caching Github Credentials on the local device following the instruction of the documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[My Studying Routine]]></title><description><![CDATA[Working in DL&ML Kitchen In culinary world, what the individual has cooked matters not the other peripherals. Likewise, this is why I value…]]></description><link>https://snoop2head.github.io/Configuring/My-Studying-Routine/</link><guid isPermaLink="false">https://snoop2head.github.io/Configuring/My-Studying-Routine/</guid><pubDate>Sat, 14 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;working-in-dlml-kitchen&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#working-in-dlml-kitchen&quot; aria-label=&quot;working in dlml kitchen permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Working in DL&amp;#x26;ML Kitchen&lt;/h3&gt;
 &lt;p&gt;In culinary world, what the individual has cooked matters not the other peripherals. Likewise, this is why I value 1) breaking down available studying materials, 2) composing back it into a working code, 3) displaying the final work to the public as the most important components in studying.&lt;/p&gt;
 &lt;p&gt;I think engineering resembles cooking.&lt;/p&gt;
 &lt;ul&gt;
@@ -8807,98 +8898,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Github-Authentication-Breaking-Change.md]]></title><description><![CDATA[Breaking change has affected Github users like me from today and on. Users who are working on remote, such as pushing to remote repo, via…]]></description><link>https://snoop2head.github.io/Configs/Github-Authentication-Breaking-Change/</link><guid isPermaLink="false">https://snoop2head.github.io/Configs/Github-Authentication-Breaking-Change/</guid><pubDate>Sat, 14 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Breaking change has affected Github users like me from today and on. Users who are working on remote, such as pushing to remote repo, &lt;a href=&quot;https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/&quot;&gt;via Command line interface or 3rd party app will have to go through authentication process&lt;/a&gt; for security purpose. Github Desktop Application users remain unaffected by this change.&lt;/p&gt;
-&lt;p&gt;Solution was pretty simple which was &lt;a href=&quot;https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git&quot;&gt;caching Github Credentials on the local device following the instruction of the documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;style class=&quot;grvsc-styles&quot;&gt;
-  .grvsc-container {
-    overflow: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    padding-top: 1rem;
-    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
-    padding-bottom: 1rem;
-    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
-    border-radius: 8px;
-    border-radius: var(--grvsc-border-radius, 8px);
-    font-feature-settings: normal;
-    line-height: 1.4;
-  }
-  
-  .grvsc-code {
-    display: table;
-  }
-  
-  .grvsc-line {
-    display: table-row;
-    box-sizing: border-box;
-    width: 100%;
-    position: relative;
-  }
-  
-  .grvsc-line &gt; * {
-    position: relative;
-  }
-  
-  .grvsc-gutter-pad {
-    display: table-cell;
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  .grvsc-gutter {
-    display: table-cell;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter::before {
-    content: attr(data-content);
-  }
-  
-  .grvsc-source {
-    display: table-cell;
-    padding-left: 1.5rem;
-    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
-    padding-right: 1.5rem;
-    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
-  }
-  
-  .grvsc-source:empty::after {
-    content: &apos; &apos;;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter + .grvsc-source {
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  /* Line transformer styles */
-  
-  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
-    content: &apos; &apos;;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .grvsc-line-diff-add::before {
-    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
-  }
-  
-  .grvsc-line-diff-del::before {
-    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
-  }
-  
-  .grvsc-line-number {
-    padding: 0 2px;
-    text-align: right;
-    opacity: 0.7;
-  }
-  
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Classifying MNIST Using Mini-batch CNN Model Built on Pytorch]]></title><description><![CDATA[🔗 Google Colab Notebook]]></description><link>https://snoop2head.github.io/DL&amp;ML/Classifying-MNIST-Using-Mini-batch-CNN-Model-Built-on-Pytorch/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Classifying-MNIST-Using-Mini-batch-CNN-Model-Built-on-Pytorch/</guid><pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/github/snoop2head/DL-Study/blob/main/mnist_example.ipynb&quot;&gt;🔗 Google Colab Notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Classifying MNIST Using Mini-batch CNN Model Built on Pytorch]]></title><description><![CDATA[🔗 Google Colab Notebook]]></description><link>https://snoop2head.github.io/Engineering/Classifying-MNIST-Using-Mini-batch-CNN-Model-Built-on-Pytorch/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Classifying-MNIST-Using-Mini-batch-CNN-Model-Built-on-Pytorch/</guid><pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/github/snoop2head/DL-Study/blob/main/mnist_example.ipynb&quot;&gt;🔗 Google Colab Notebook&lt;/a&gt;&lt;/p&gt;
 &lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;python&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; torch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# import basic components&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
@@ -9282,56 +9282,15 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Deep Learning Concepts]]></title><description><![CDATA[Cross Validation(or K-fold validation)  Dividing dataset and cycle through folds and validating Updating and tuning hyperparameters when…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Deep-Learning-Concepts/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Deep-Learning-Concepts/</guid><pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;cross-validationor-k-fold-validation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cross-validationor-k-fold-validation&quot; aria-label=&quot;cross validationor k fold validation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cross Validation(or K-fold validation)&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 924px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAACfUlEQVQ4y3WU2XLaQBBFeTJoXwYtgFZGGwhJLMYYQ9lViR+S//+g69bImMSVPFx1z2ho9XKGkc1sRHmAMOu1+LSB2Ft1FZrDBmVbYMHnCPPhTEDq11mZ4LXr8PPxiKfVGqqqYmSYBphnw3YtYf/042WENEuRVxmYb8NyzeG91/sWvJmD9XKJtiiRR/EQ0LRM5BuO3WmLuAxRNBn2z3ukqwRZTYcPDXidouoKHM4HpEWIpojwtC3R8Ag/djv8Op1xrpshoK7rcLwpfc0Dc5nw/bmHKVnHczCb+1/7/RlryuC5DsJgAYcxRLM5kkWAhecPAfuHIiuQZRmKotx9WflrX5Zk0gS2IYGZMixDgalLdGaM8USCrMhQNQ0jjR7/k6730umgCkbZJEmMkgeoqeR1mZKNsSo4HMeFRon1v/nK8F+S6MuT8UTINEw4UweWxcBsB67jwWa0ZlNIVMHDZDIEFNhQo6NiQEVYsQ6x3lXoHhusthUW2VzgckNmtvTBKdPXtsU7YfNcb+7Y2O6ARI9LL8sZ/DAJCJ0YGZXFfDa8/4bNKk2xyXLwMLxjU7Q59ucdkioiiHM8vhAe6wR5w9EdW/BNSlmWOF6OWFYx2irB836FLo/xvj/g9/kFl017x4Y5TCDRYzKgMhN2Srj4n/sWo+ymNgxTp35q1EeDpqwSLh7CObXAHQYzDKXHgoagfk6ql6EbQpqqQVVUMRDOOaIoErYsK6RUbo/Kw3iMiSQNGX5H5Ra0z9wwqL+2LfZC6tH1csXpdML1esXb6xsuLxfwJUdM147TFXQpy9H3QDf/Jl3TRQW+76OirOp1jZYmWxQFSrrD224r1h39SXhU/gf0GWsFxMpIAQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810152536667&quot;
-        title=&quot;image-20210810152536667&quot;
-        src=&quot;/static/15e92f7fc7ec3a4813d4eaa1e193b09d/9a1cf/image-20210810152536667.png&quot;
-        srcset=&quot;/static/15e92f7fc7ec3a4813d4eaa1e193b09d/5a46d/image-20210810152536667.png 300w,
-/static/15e92f7fc7ec3a4813d4eaa1e193b09d/0a47e/image-20210810152536667.png 600w,
-/static/15e92f7fc7ec3a4813d4eaa1e193b09d/9a1cf/image-20210810152536667.png 924w&quot;
-        sizes=&quot;(max-width: 924px) 100vw, 924px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Deep Learning Concepts]]></title><description><![CDATA[Cross Validation(or K-fold validation) image-20210810152536667 Dividing dataset and cycle through folds and validating Updating and tuning…]]></description><link>https://snoop2head.github.io/Researching/Deep-Learning-Concepts/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Deep-Learning-Concepts/</guid><pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;cross-validationor-k-fold-validation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cross-validationor-k-fold-validation&quot; aria-label=&quot;cross validationor k fold validation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cross Validation(or K-fold validation)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810152536667.png&quot; alt=&quot;image-20210810152536667&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dividing dataset and cycle through folds and validating&lt;/li&gt;
 &lt;li&gt;Updating and tuning hyperparameters when cycling through folds&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;bias-and-variance-tradeoff&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bias-and-variance-tradeoff&quot; aria-label=&quot;bias and variance tradeoff permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bias and Variance tradeoff&lt;/h3&gt;
 &lt;p&gt;What we are minimizing(cost) can be decomposed into three different parts: square of &lt;strong&gt;bias&lt;/strong&gt;,&lt;strong&gt;variance&lt;/strong&gt; and &lt;strong&gt;noise&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 31.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABMElEQVQY032Q62rCQBCF89PsJZtkN/do1KixWkokRlG8QMHSvkDfoC/Qvj+nY6TFH6U/znyzMJw5O9ZDEuM0LrDtZziXQ5RRBOV58H0fjuN0Ukp1NMZ0FEJASvmnrJdqgs9dg4/VEl/7NXajAoZM0ySB0bozCQIDTQvyPIfruv8b+lTmRYHL8YBJlkJTGiEd2FzAZhy9q2ze9ZxfJcDYjb9iDNzudYssTsWmQUZkHSUWgwCbsUbdV2hGGtsywOOAUmoPWaqRxB4CoxAT49CF6VeIF0dI5cG6j+uQhCSTMsJlGeF5HuJtVeD1KcWGTMNQYzKOMZumGOQGwyJCltCSao3Z6Z1ub2D93OOejqSeM5SjIQ77HaUI6H37sqa7Nk2Dtm1R1zUkzU+nFQ7HMyWO8Q1lNplK1/k20AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810152828518&quot;
-        title=&quot;image-20210810152828518&quot;
-        src=&quot;/static/67fcfa19acdf89c13f61e1357d5eb7bf/c1b63/image-20210810152828518.png&quot;
-        srcset=&quot;/static/67fcfa19acdf89c13f61e1357d5eb7bf/5a46d/image-20210810152828518.png 300w,
-/static/67fcfa19acdf89c13f61e1357d5eb7bf/0a47e/image-20210810152828518.png 600w,
-/static/67fcfa19acdf89c13f61e1357d5eb7bf/c1b63/image-20210810152828518.png 1200w,
-/static/67fcfa19acdf89c13f61e1357d5eb7bf/bb543/image-20210810152828518.png 1418w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810152828518.png&quot; alt=&quot;image-20210810152828518&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Bias: deviation from mean&lt;/li&gt;
 &lt;li&gt;Variance: deviation of each data&lt;/li&gt;
@@ -9342,28 +9301,7 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
 &lt;li&gt;Any test or metric that uses random sampling with replacement. For example subsampling inside training data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;comparing-bagging-vs-boosting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#comparing-bagging-vs-boosting&quot; aria-label=&quot;comparing bagging vs boosting permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Comparing Bagging vs Boosting&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACXklEQVQozz2T2W7jOBBF/dCY2KL2fZcdy0osWZE32e70gnkYoIFB/v93TpeURj8QEousIu+tw0UURbRtS9M0dG1HmqbYto3v+zi2xctLQ3/oCaa58yfuuNiWw/N6Q9d1xHGMadl4rsfC8zzKsiTLMvI8l4RAEhymuOVFlMWaStYt20E3LXzPJ05CktON4XLnuazI0pjYdwjDkIXSdTRNydBYrVYoXaFLLAp9ovOF9fmILetx4PKcuZhStN5uOf8Y6a6vkmfx81jy61xguwELffmEkqEphWEYc7HpgOa14XHtGc+vsjHkui/5f6ywHbl56FA3e4bNBiU5SRSKXBd3kqzverLDjVKCSumzb75IdmOP4Pov4/GBpWssNZ0nzZB1B8M0UFFBFGV4svdppfhnqcQOKXgaD+SPhm0uPrk+H5eE0zYQWTsO15b61uHbPv0u478hwZIbFmlC/T7yej/iWi79NmLc+bieSG5u7/x6/8qmKMQ/g+cqJw4D0nVBdzzzrW9R4tsmjzjU2exhVKZc7yP3/oWlMrm2FZeXXKzxWWimiS8/tvnp33KlydcgkCYY+4Ftf8KVRq2UIT7ruM7UbR0rrlinlcztueiXpT6TsdBlk6a0uSlKfXZ4+u7qLcPjRHvbC3M+l33Bx62cJSdxSPYY2V0HbN1iVwYcNsGn5Cl5AnmqPo2JwekQLwlouoHvhzf8QLgLPbJIsDFMsnXO437h/dRhir/3Q8nXNsWZJJsiuRI4h2GYqa/r+i/YExJRkvDWvxEItJPH04uxBeKk2vIQTo/HI3lRoenm/Ip+A2RTHzR1NqmtAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810230025249&quot;
-        title=&quot;image-20210810230025249&quot;
-        src=&quot;/static/428dc536ecb1ebbdb9596c74583dc0e8/c1b63/image-20210810230025249.png&quot;
-        srcset=&quot;/static/428dc536ecb1ebbdb9596c74583dc0e8/5a46d/image-20210810230025249.png 300w,
-/static/428dc536ecb1ebbdb9596c74583dc0e8/0a47e/image-20210810230025249.png 600w,
-/static/428dc536ecb1ebbdb9596c74583dc0e8/c1b63/image-20210810230025249.png 1200w,
-/static/428dc536ecb1ebbdb9596c74583dc0e8/eb1d2/image-20210810230025249.png 1622w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810230025249.png&quot; alt=&quot;image-20210810230025249&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Bagging: Bootstrapping aggregating.&lt;/p&gt;
@@ -9381,50 +9319,8 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;gradient-descent-methods&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gradient-descent-methods&quot; aria-label=&quot;gradient descent methods permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gradient Descent Methods&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACKElEQVQoz5VSXWvTYBjNf/HGf6B/QC+GN4I3XvgzBEHYjbiLCQ4ZIqLeCbMgarHV4oVr5/zqHBtNV9emydquSZqkaZo2SfN9fN50LXo1PHAg73nDec7zvA+XJAmiOM6YpmlGpsmyDFlRoSgKoiha3p1HTpIkvM5tYXenguRMZChvf8aTzUcoFt7jf8CNxjZefqigyjczIaZ0DE2pi/UXOVQPeMSU0HXdZVLWASu+JJ1TphG5ge3h0v0i1t5VmR2CeG643xni+uMyPv46hiaf4qTTwWQygR8ECPwZ/JmP0HHgux5pYcbp1AEnjxxcvJPDam73n+g/BBVX1gt48+UQlqFBHWhwySBiHegaYr6OgLRoZCE1TSR+iBkV4QZjFysPS9go7GFsqBBECXEww0F3iBubn1Da+w25ewKh3YZN42EjiT0HtqrAGk8xIcPEniCl5L5Phqrl4PK9PNbefgcCDxZdAil+ihquPigi/62GqWXCMIbZHNmcDG0ARVPgUKowSmlD5g+ZJeybU1y4/Qp3t3YyMTlruSoOcG2jhPzXGvodCW1KbtuUkK0XWzXfQxgHCBP2kBSBPD1maLoBbj6t4Pl2PTOKknm1w94Qt55VUK5JGJs6Tvt9ODTDMKRU1F4UkhkxILKH8kn3Zh44XdfB8zyOm030er0sAYNJg64fNYhH2fcCy7X5i4uVyRab/Sy0WmgRBUFAQNUYDEOHKIpoNBroU7qF2Xn4A+NYMygSKt0zAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810224326606&quot;
-        title=&quot;image-20210810224326606&quot;
-        src=&quot;/static/9f714561f6b03ca732419600f8870459/c1b63/image-20210810224326606.png&quot;
-        srcset=&quot;/static/9f714561f6b03ca732419600f8870459/5a46d/image-20210810224326606.png 300w,
-/static/9f714561f6b03ca732419600f8870459/0a47e/image-20210810224326606.png 600w,
-/static/9f714561f6b03ca732419600f8870459/c1b63/image-20210810224326606.png 1200w,
-/static/9f714561f6b03ca732419600f8870459/6b26f/image-20210810224326606.png 1658w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACCUlEQVQoz3VS2Y7aQBDk/78F5Q3tKhIKQeFYAhjbnCLgZfFymXOx8Zyu7RkrLHnIWOWx2+Pq7uoqgFaWZf9Aa23CmM/nqFQqGI8naLfbKJfL2O/3+N8y/xYYY+CCQwhhwbigdwFJpJfzBZvNDlEUWWy3W9xuNwRBgGbzBX6/j063C8/3oZSypJZQ02Wro4Cgm6ZYlsSQ2Vd2U7SBSToajdBoNNBqteC6ru3kXqE5kCkJTR8ypwft+cDpBL3eQh2OUOs1RJLC5BdcWUK310OjXkebCJfLJQ6HgyWzFXLODTX0boNsscDVcbAO3xFfE+jrFVitbAK5P9oOpBTwR2P8+FVDo5O326RqwzD8S8jynliKXUjZLh+4cYlVuEL0+orzZoN4s4WWuUZGXxFMwSc++KAL8XGGYRBSfmlo1vtijl20Bs80Ukaakl6cDi2JOI6Tu5amZeX9hv7+Dar6jKxbB/4MgOT62LLGeDhAMJ/hbRngGKdgRCqlfhiKsVRO2Ce9nUYdndYLJm4Pp/ANx31kz9w1vI9SkWXAkaqMKswsqaRd0PiNMxgTmNFUHdfDgKY9HI/hD4dwPc9aKie8O9N4w2ilYEykLIAH9xC5RJ8GUSwW8fz0hJ9k/FqthjphNpuhkKbUHsEQc7Mz85y/M9oZ7QnjiAkpwcSn0ylKpRKq1SocckUcxzA8Ro5Pq9tA0KWeWTIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810224402000&quot;
-        title=&quot;image-20210810224402000&quot;
-        src=&quot;/static/824f253bc18f400abb94ed872a10bc07/c1b63/image-20210810224402000.png&quot;
-        srcset=&quot;/static/824f253bc18f400abb94ed872a10bc07/5a46d/image-20210810224402000.png 300w,
-/static/824f253bc18f400abb94ed872a10bc07/0a47e/image-20210810224402000.png 600w,
-/static/824f253bc18f400abb94ed872a10bc07/c1b63/image-20210810224402000.png 1200w,
-/static/824f253bc18f400abb94ed872a10bc07/6ee58/image-20210810224402000.png 1640w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810224326606.png&quot; alt=&quot;image-20210810224326606&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810224402000.png&quot; alt=&quot;image-20210810224402000&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;#x26;fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F9987E53A5D0E1B7C2E&quot; alt=&quot;딥러닝 용어정리, MGD(Mini-batch gradient descent), SGD(stochastic gradient  descent)의 차이&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/yongho/ss-79607172&quot;&gt;🖼 Image Source&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -9433,80 +9329,17 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
 &lt;li&gt;Stochastic Gradient Descent(SGD): SGD is different from Mini-batch GD but Ian Goodfellow book explains it as the same concept.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Deciding batch size is important to prevent GPU overload.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABAklEQVQoz4VSy46DMAzMmYQ8G+gCLRKPU7XS/v/PTe1sggAV9WCF2OPxjINQSqGu68vgurUW8zxjmias64q+76FPmMIj+MM5B6M1Ja+JNdWd97g3TcI/mhZ/zydew4Df4QFnDCRxiaqqYOgSCPRNqXce0Qc4UuyM/R+Uo2BEjDFZYnBSeUHGqrx16bz5jM1WD5aZkBVuKk87LTsMRML3Qmg/DE8KpZQbuyegp2YlFUq+EOgdeRNuNPj4GJvCsz0mjdTQxgYtPUBRtrfe339ojy65OvcL9cFiCAHrsmChGMfx8GtwcG7J9a7rwA9bauIAzqRsl0F8Gm2SzX2UnZfY8oR9A9Ju1IfbAxHOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810230721230&quot;
-        title=&quot;image-20210810230721230&quot;
-        src=&quot;/static/2bf5c1a95e2249c6c5b093b4abe9694d/c1b63/image-20210810230721230.png&quot;
-        srcset=&quot;/static/2bf5c1a95e2249c6c5b093b4abe9694d/5a46d/image-20210810230721230.png 300w,
-/static/2bf5c1a95e2249c6c5b093b4abe9694d/0a47e/image-20210810230721230.png 600w,
-/static/2bf5c1a95e2249c6c5b093b4abe9694d/c1b63/image-20210810230721230.png 1200w,
-/static/2bf5c1a95e2249c6c5b093b4abe9694d/5dded/image-20210810230721230.png 1588w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810230721230.png&quot; alt=&quot;image-20210810230721230&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&quot;Large batch size tend to converge to sharp minimizers whereas small batch methods converge to flat minimizers.&quot;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Here, our purpose is to find minimum on loss function at training function which is approximately close to minimum for test function. Thus flat minimizer is more generalized result. However, sharp minimum on training function yields higher loss on test function. &lt;strong&gt;Thus generalized performance is better when large batch size is used.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;choosing-optimizers&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#choosing-optimizers&quot; aria-label=&quot;choosing optimizers permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Choosing Optimizers&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 59.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACIklEQVQoz62SW08iQRCF+f+/wAc3bILZB3yQFSW6QbmpKKxcBmeQOIACMgwXIQGNF6a/re5ZjRtft5IzXd1TfapOVUcQe319Zblc8vT09OGPRiN838cTDAYDZrMZ3W6XXq/HfD436Pf7LBYLTYFSyqwR7YzHY1zXNRceHx+pVipsbGzwY2uL1M8Eh6kUl5eXRKNR4vE4Ozs7FAoFYrEY5XLZEAVBEBLqz8vLi8k8HA5NdZ5UVxUC1/PJD3yKLRerVsNttzk9PaXRaGDbNqVSyaj4p0L9eX5+xvM8A13hSIJK50Va/Xv2O/dkrpqUikVKUk0ikaAiCoqyT6fTph3a1uu1ITWEq9WKz6az7u3u0hmNOZsuKbdvsa06jtMkJfJ1dfV6nZOTE9PLzxZ5L9VxHKrVqulVJpMJ12yWvPTqTKrJ5XIcHR1xfHxsZFuWxcXFhYnV9zS00g9CLeFc8OvwkG+bm6T29/kuQ9D7jJAcHByQTCbJC7E+OxPSrCTc3o6zK2py4k+nU5EshIr/ZxFD9vZGMBmHkAkr6Ysa+6i/+8AXjDzWqyWBxsMDwWIe+rMpSt5oIANVMouQUB60smqouiCfRXlDVLeDatRR9hXqpoW6dlB33TCudY1qyv66KXHtMK7yGyWJjeQvJpmxGzIpG9wbaLtQq4CQIuTmXKZO0/4q+YNQr+++VMxtB/o9/YZgMoG7Wxj0QaQzvA//6bPPdwV/AG1LcV29foRtAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810224432812&quot;
-        title=&quot;image-20210810224432812&quot;
-        src=&quot;/static/cfd1f78b9138e3d077ab1f1a9612f375/c1b63/image-20210810224432812.png&quot;
-        srcset=&quot;/static/cfd1f78b9138e3d077ab1f1a9612f375/5a46d/image-20210810224432812.png 300w,
-/static/cfd1f78b9138e3d077ab1f1a9612f375/0a47e/image-20210810224432812.png 600w,
-/static/cfd1f78b9138e3d077ab1f1a9612f375/c1b63/image-20210810224432812.png 1200w,
-/static/cfd1f78b9138e3d077ab1f1a9612f375/53639/image-20210810224432812.png 1358w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810224432812.png&quot; alt=&quot;image-20210810224432812&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Key to understand optimizers are consisted of two elements. 1) Gradient Vector, 2) Learning rate&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/yongho/ss-79607172&quot;&gt;🖼 Image Source&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;types-of-optimizers&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#types-of-optimizers&quot; aria-label=&quot;types of optimizers permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Types of Optimizers&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACE0lEQVQoz11SaW/qMBDM//8/fKlQeaLcUAXKTUM4Eu6EJBwhIXGmY7cgPSytbO/as7Ozq5mmiUajgUKhAF3XMRwMUK1W0W63kc/nla/w/o5arYZyqaRM+iqVCur1utpzuZz68/b2Bs1xXNirFW2N2XwBz/NwOp1wvV5xcBx8dbtotlpw/ABucKIFCG83+LynaYokSXA8HnGjb7/fQ7PsFbr9Ab4NE5ZlI+Cnx8pok6lJwE+YTGbJpEsLZ35OGFvYNuaz2fO9JKKNJxM4ZBLFMQSdhmFAZ7n94QjRPcH+6GO6sLA/OHDJ3vN9pPe7AlTJmi0Y0xnjB8VUu0SxQje9E47RHeNvg48+0e31MTGmCuhKRnEqECUpIiHU+RzeEJzPCMOQSQIkLF8xjKjBZn9QjyFSZAyILKM2qdIlJnOp1X+L98V8jlK5rCQ6Xy64XK5wXRfaerNBpVrDlo2JWQ6OLgSTZFn2J+Tv7u52KBY/YIxGyMhSgqzWG2VrmuyF7IEmS/zqDqB3upgvbSR8KJmqJYHjX0kCllWu1tEbDDE1ZwrodQWcAM3zfDUeDunKEUqZvdfpQOeohGyCiCLEHKGU5cuzT58UXwjxV0D2rEYBvmbJREbGfdQaTbWPRxMsF0uEBL2xAYXCPxQ/Sthst0q3B+gT8JHhYYKAPgMHdne92ZK9q9jL2F02cLvDjk2UsSsTvAL+AL+POGdXW7vZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810224442129&quot;
-        title=&quot;image-20210810224442129&quot;
-        src=&quot;/static/77fcb96937cb291c03f56303c8c102aa/c1b63/image-20210810224442129.png&quot;
-        srcset=&quot;/static/77fcb96937cb291c03f56303c8c102aa/5a46d/image-20210810224442129.png 300w,
-/static/77fcb96937cb291c03f56303c8c102aa/0a47e/image-20210810224442129.png 600w,
-/static/77fcb96937cb291c03f56303c8c102aa/c1b63/image-20210810224442129.png 1200w,
-/static/77fcb96937cb291c03f56303c8c102aa/bf286/image-20210810224442129.png 1688w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810224442129.png&quot; alt=&quot;image-20210810224442129&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Check for &lt;a href=&quot;https://d2l.ai/chapter_optimization/sgd.html#sec-sgd&quot;&gt;Dive into Deep Learning&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Stochastic Gradient Descent&lt;/li&gt;
@@ -9520,82 +9353,18 @@ https://unix.stackexchange.com/questions/354928/bash-sudo-command…]]></descrip
 &lt;h3 id=&quot;regularization-for-better-generalization&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#regularization-for-better-generalization&quot; aria-label=&quot;regularization for better generalization permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Regularization for better generalization&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Early Stopping&lt;/strong&gt;: stopping training before loss for validation dataset becomes bigger
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABMUlEQVQoz32QyXKDMBBEuYXVBiQhG4EQm/GelPP/39aZEXbKh1QOr4RGM909BM45ODciiiJkWfYnaZr+e38n6DqH4+mOMPxASoUoSTxhHPszeQ6zyLsQfyf8TrzemMC5Htfbg4ZjGClwbhpciLttcTYGuix/RRkWiMksz3MopVBVFaSUkEJis9kgGIYBrp89RZaiosYLCX2RoC4KlNTEAmmyJiiott/vYahHCIGSDLnG+JVNbbxbawfMyxVbcvoeRzz6HjGJSUrNKCVR1zV2WtNwTibRCm3Ghq/VA2MaHzkMQxrS6NyMaTxiOZxhuxFN49C0PWpjISSJlQqloDXVDpWuaYYxVNNrQo5trUXbWr+GoRT+pP94WE64XD8xzUf0w4RxOjxZfG2eF0orPdvtuvIPavGts7C6TRMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810232104331&quot;
-        title=&quot;image-20210810232104331&quot;
-        src=&quot;/static/603c5eb49a236f7c8a1d1ba6ed09a813/c1b63/image-20210810232104331.png&quot;
-        srcset=&quot;/static/603c5eb49a236f7c8a1d1ba6ed09a813/5a46d/image-20210810232104331.png 300w,
-/static/603c5eb49a236f7c8a1d1ba6ed09a813/0a47e/image-20210810232104331.png 600w,
-/static/603c5eb49a236f7c8a1d1ba6ed09a813/c1b63/image-20210810232104331.png 1200w,
-/static/603c5eb49a236f7c8a1d1ba6ed09a813/f2f8c/image-20210810232104331.png 1490w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/li&gt;
+&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810232104331.png&quot; alt=&quot;image-20210810232104331&quot;&gt;&lt;/li&gt;
 &lt;li&gt;Parameter Norm Penalty: adding smoothness to function space&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Data Augmentation&lt;/strong&gt;: When dataset is small, ML methods(XGBoost, Random Forest) outperforms Deep learning.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 34.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABK0lEQVQoz01RSW7EMAzLeRzve/aiQNv/f5ClHGTaA5HYkimSmlprWNcVxhjM8wxFWKPRSsax70gpj3vnHHaec77PWuuB8f/vPKWUUGt9N2WvcbaEJXnkGGFJJDVB7x3e+3fv840cKjyDUCaHEKDUjBYsopNJFpqKU05Ua2HtjcgBf8oU7zx8qnA+DIeDMIZIwghHmzU4vEgsj320yLRttMGyLLiu61bBhy+lYLxDZFyGApat4ziO8W4KZHeO9uyLatjoDGJJnJxp1498HoWZhIGELWrmXlGC/BvsrYya8AzLnx8bFWxoG7FuqH2juoJCCNGzrM6FfLP35+sTrXWk4JFiuAcxW0Xlk/iWDEO8rXtOERJZ1Hmeo/aEb4hWC87jGgsSMZ51sSuxCOEvTP+pTJ925/MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810232803654&quot;
-        title=&quot;image-20210810232803654&quot;
-        src=&quot;/static/b36947b6d85f79c44a4c710dd2fa8a83/c1b63/image-20210810232803654.png&quot;
-        srcset=&quot;/static/b36947b6d85f79c44a4c710dd2fa8a83/5a46d/image-20210810232803654.png 300w,
-/static/b36947b6d85f79c44a4c710dd2fa8a83/0a47e/image-20210810232803654.png 600w,
-/static/b36947b6d85f79c44a4c710dd2fa8a83/c1b63/image-20210810232803654.png 1200w,
-/static/b36947b6d85f79c44a4c710dd2fa8a83/d61c2/image-20210810232803654.png 1800w,
-/static/b36947b6d85f79c44a4c710dd2fa8a83/82747/image-20210810232803654.png 2232w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810232803654.png&quot; alt=&quot;image-20210810232803654&quot;&gt;
 Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github.com/aleju/imgaug&quot;&gt;library such as imgaug&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/examples_grid.jpg?raw=true&quot; alt=&quot;64 quokkas&quot;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Noise Robustness: Add random noises for input images or neural networks&apos; weights.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Label Smoothing&lt;/strong&gt;: Increasing performance on classification problems. This is to smoothe the boundary between classes.
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB1ElEQVQoz02R22oTYRSF5wW89gF8i3rhjagggqC2iIo2QZqaiw6NSarNCS1SjE1sU9OSSVOJCL6BF4J4JXjRUg220WInk8ZEcoJMDpM0h8+ZvxS6YMO/2PvfrLWXNBqNsMrCYDCgXq/TbDZpmWUYHWq1Gt1ejyY65iTDwZDekcmPdPHH6HapVqvmjqHgEqdwoOVJJBU23qaJraf4+OkzifU1/HMe3CEvr6JLnB8bY/Khg2T6PV++fiMc8uORZZT0B/6VSkiGYQhVFrYzWYIuO3HPLYKOGyib71iYc7IcnGHxRYD7djuSJHHu7BkiXhsbqU28Mw4iAZnA9E3+qDmkTqdDPp8Xdne+Z/DN+0gszjI9foFYbBWfRya5tkQiHmUlFufSlatM3b6My3aN1dgbnrhloiEnjomLHKgaUr/fZzg89r+1tY3PH8Iz6+TexHWWX0fwmnafzruxP7iDoiR5GQ7jdT3CdnccJZni2fMFHstTTJpcVdVjy41GA8NUar2LxSKlYoHCoWaGo5Pd2yXzY4df2T0xVyhYvTzFv4fous7+/m92f2bQcqoQJhZaltvttlBpJVY1k222WoKXy2VymiaSt1CpVKiYM+12R3BLgGre7qT/H3zLwab5bzyPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Screen Shot 2021-08-10 at 11.31.52 PM&quot;
-        title=&quot;Screen Shot 2021-08-10 at 11.31.52 PM&quot;
-        src=&quot;/static/f435a0289101cc0830e75be5ed3bea73/c1b63/Screen%20Shot%202021-08-10%20at%2011.31.52%20PM.png&quot;
-        srcset=&quot;/static/f435a0289101cc0830e75be5ed3bea73/5a46d/Screen%20Shot%202021-08-10%20at%2011.31.52%20PM.png 300w,
-/static/f435a0289101cc0830e75be5ed3bea73/0a47e/Screen%20Shot%202021-08-10%20at%2011.31.52%20PM.png 600w,
-/static/f435a0289101cc0830e75be5ed3bea73/c1b63/Screen%20Shot%202021-08-10%20at%2011.31.52%20PM.png 1200w,
-/static/f435a0289101cc0830e75be5ed3bea73/d4b10/Screen%20Shot%202021-08-10%20at%2011.31.52%20PM.png 1394w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;img src=&quot;./image/Deep-Learning-Concepts/Screen%20Shot%202021-08-10%20at%2011.31.52%20PM.png&quot; alt=&quot;Screen Shot 2021-08-10 at 11.31.52 PM&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mixup: overlaying two different images&lt;/li&gt;
 &lt;li&gt;Cutout: cutting out portion of image&lt;/li&gt;
@@ -9604,29 +9373,7 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
 &lt;/li&gt;
 &lt;li&gt;Dropout: randomly set some neurons to zero. Neurons then can grap robust features from the input.&lt;/li&gt;
 &lt;li&gt;Batch Normalization: Controversial. Known to improve performance when layers gets deeper. Layer Normalization, Instance Normalization, Group Normalization is also introduced on other papers.
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 29.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABnklEQVQY0x2RPW/TUBSGs6Cg2Ik/kvgjdhrHH2kcqyWta6cKIRQMFc2CSpdKqEVsINigKwMDrAzQLiA2YGEvO+rCAD+Av8HQ6eHGw5Xufc973nP03Iosy9TrdTodB9Oyxb2BLEnlsewOhmGUdUmW0DQNW2iWadFoNJCkGpqu0/P6uK5bapVloCkMyXBI7HvoqoqsqNhujyQKGMWjMmjpcxyHtdGIeBijLn1ikGMajJOYWPgURaFimCZZmjLZ2aV48Y7tl2esjKcsPv5idviUXNQG0QDXccmzCfmNgjyfEIYRrmUy23/E9MFjso0xQRBS6a70yNYTbp+ccXh+yfz9BdF2wf3zf+x++k06mTEQRt8PyLcy5ienbF3fIRKBfdsol7h7esHmtXE5uKLpLdZCj+LNdw5+XDJ99YWmI94ffrL4+lc03yLs92k2W2yIpuL1N/L5HXyh6VKVm8/fsvf5D+lmKjRfMBQctLrE6uKYcO+IZtukVr1C2/UYHTyj24/QVEV8gES71WJ47yFdL0AVvGpXq3RW10n2nwi+bsnwP0OhvKp6Zq/vAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810233535691&quot;
-        title=&quot;image-20210810233535691&quot;
-        src=&quot;/static/e684d71ba97ce87074bbb4797df737ca/c1b63/image-20210810233535691.png&quot;
-        srcset=&quot;/static/e684d71ba97ce87074bbb4797df737ca/5a46d/image-20210810233535691.png 300w,
-/static/e684d71ba97ce87074bbb4797df737ca/0a47e/image-20210810233535691.png 600w,
-/static/e684d71ba97ce87074bbb4797df737ca/c1b63/image-20210810233535691.png 1200w,
-/static/e684d71ba97ce87074bbb4797df737ca/d61c2/image-20210810233535691.png 1800w,
-/static/e684d71ba97ce87074bbb4797df737ca/37c35/image-20210810233535691.png 1810w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/li&gt;
+&lt;img src=&quot;./image/Deep-Learning-Concepts/image-20210810233535691.png&quot; alt=&quot;image-20210810233535691&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -9717,7 +9464,7 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Neural Networks]]></title><description><![CDATA[Definition of Neural Networks Neural Networks are function approximations that stack affine transformations followed by non-linear…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Neural-Networks/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Neural-Networks/</guid><pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;definition-of-neural-networks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#definition-of-neural-networks&quot; aria-label=&quot;definition of neural networks permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Definition of Neural Networks&lt;/h3&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Neural Networks]]></title><description><![CDATA[Definition of Neural Networks Neural Networks are function approximations that stack affine transformations followed by non-linear…]]></description><link>https://snoop2head.github.io/Engineering/Neural-Networks/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Neural-Networks/</guid><pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;definition-of-neural-networks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#definition-of-neural-networks&quot; aria-label=&quot;definition of neural networks permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Definition of Neural Networks&lt;/h3&gt;
 &lt;p&gt;Neural Networks are function approximations that stack affine transformations followed by non-linear transformations. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/5176/1*ZFPOSAted10TPd3hBQU8iQ.png&quot; alt=&quot;Review: GoogLeNet (Inception v1)— Winner of ILSVRC 2014 (Image  Classification) | by Sik-Ho Tsang | Coinmonks | Medium&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;1d-input-linear-neural-networks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1d-input-linear-neural-networks&quot; aria-label=&quot;1d input linear neural networks permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1D Input Linear Neural Networks&lt;/h3&gt;
@@ -9966,7 +9713,7 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Fixing Pylance Import Error]]></title><description><![CDATA[Problem For some time, I've been facing this issue on my Jupyter Notebook files.  This error was frustrating for the following reasons. The…]]></description><link>https://snoop2head.github.io/Configs/Fixing-Pylance-Import-Error/</link><guid isPermaLink="false">https://snoop2head.github.io/Configs/Fixing-Pylance-Import-Error/</guid><pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;problem&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#problem&quot; aria-label=&quot;problem permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Problem&lt;/h2&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Fixing Pylance Import Error]]></title><description><![CDATA[Problem For some time, I've been facing this issue on my Jupyter Notebook files.  This error was frustrating for the following reasons. The…]]></description><link>https://snoop2head.github.io/Configuring/Fixing-Pylance-Import-Error/</link><guid isPermaLink="false">https://snoop2head.github.io/Configuring/Fixing-Pylance-Import-Error/</guid><pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;problem&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#problem&quot; aria-label=&quot;problem permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Problem&lt;/h2&gt;
 &lt;p&gt;For some time, I&apos;ve been facing this issue on my Jupyter Notebook files.&lt;/p&gt;
 &lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;Import &amp;quot;torch&amp;quot; could not be resolved Pylance(reportMissingImports)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;span
@@ -10153,7 +9900,7 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Book Recommendation for DL & ML]]></title><description><![CDATA[My Bookshelf  Math Introduction to Linear Algebra by Gilbert Strang Linear Algebra and its applications by Gilbert Strang Difficulty…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Book-Recommendation-for-DL-&amp;-ML/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Book-Recommendation-for-DL-&amp;-ML/</guid><pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;my-bookshelf&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#my-bookshelf&quot; aria-label=&quot;my bookshelf permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;My Bookshelf&lt;/h3&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Book Recommendation for DL & ML]]></title><description><![CDATA[My Bookshelf  Math Introduction to Linear Algebra by Gilbert Strang Linear Algebra and its applications by Gilbert Strang Difficulty…]]></description><link>https://snoop2head.github.io/Researching/Book-Recommendation-for-DL-&amp;-ML/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Book-Recommendation-for-DL-&amp;-ML/</guid><pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;my-bookshelf&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#my-bookshelf&quot; aria-label=&quot;my bookshelf permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;My Bookshelf&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
@@ -10314,31 +10061,10 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Gradient Descent on 1D loss function]]></title><description><![CDATA[🔗 Google Colab Notebook 3Blue1Brown Gradient Descent Material Gradient Descent is 1) first-order 2) iterative optimization algorithm for…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Gradient-Descent-on-1D-loss-function/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Gradient-Descent-on-1D-loss-function/</guid><pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/github/snoop2head/DL-Study/blob/main/Gradient_Descent_Study.ipynb&quot;&gt;🔗 Google Colab Notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Gradient Descent on 1D loss function]]></title><description><![CDATA[🔗 Google Colab Notebook 3Blue1Brown Gradient Descent Material Gradient Descent is 1) first-order 2) iterative optimization algorithm for…]]></description><link>https://snoop2head.github.io/Researching/Gradient-Descent-on-1D-loss-function/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Gradient-Descent-on-1D-loss-function/</guid><pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/github/snoop2head/DL-Study/blob/main/Gradient_Descent_Study.ipynb&quot;&gt;🔗 Google Colab Notebook&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IHZwWFHWa-w&quot;&gt;3Blue1Brown Gradient Descent Material&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Gradient Descent is 1) first-order 2) iterative optimization algorithm for 3) finding local minimum of a differentiable (loss) function.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 78.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACcklEQVQ4y5VUiWoiURCc//+QIIhRkMTEK2o08cIzh4qJ56qrg9HRcS61dqrNiIRlYRseb97R9aqru0eZTqcYDocYDAaYTCbo9/tot9syv7294f39Ha1WCx8fH+h2u+h0OnLf8+E59+v1uuwplUoF1WoVT09PSKfT58H13d0dEokEYrGY3IlEIrIXCARkvr29xf39PUqlErLZrIAr+DbbtpHP58Xp+voaqVQKz8/PCIVC8kCj0ZBvghOoXC7j4eEBn5+fuDTlcDjAG47jCDBnmre33+9lcO3tH4/H87l3h3uKd8hxaZ7D/xjvK0Q3jN15bLdb6LqO3W4nl0ajEXw+H+LxOAqFgoRP3R8fH2XkcjnRmXJJyASYzb4wn2+wWmnYbNZQ1TUWi7Ubio1isYhwOCz6UV86+/1+XF1dyR4f48wkkZxCJpbpwLRdPfanEEnOMA6unpas5/O5MMxkMkgmk5JZb2aJUR5qKAwNw8ZS1bFtNmG5bKmktj4Ku0tdVVUVFgS6ubmRTBPsp+6KvtXh0HGjAYM+mAfDkGMp9JeXFwmbdebVIZkSkOC1Wk3Oe73eiSETYJkmGKwz+YXfnRF0VwLbMl09TwlaLBYiPhNCEBYy18FgEOPxWBLJ8R2yIU6mO5uWBXWhQtM0mO4jNLYctWLnkBmBGDLXLG5mmgy92lX+Vk8UmA9REzrSgaVCdgQlCEMlU4bedPX3CCg8oBNbi6/PZjMsl8tzDxOM4bDxo9Go1Bt/FoyKPw8+QH0ZiQCuVivpR17i38OyTqVCYDrwnB3ABHH9+voqziw3Psx+JiBlOofM/r3U7Wcb/stIgI8Sg/YH7QuOEBDyB3cAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210810224303582&quot;
-        title=&quot;image-20210810224303582&quot;
-        src=&quot;/static/dec322cc47afd2d2c949b68ff5e1600d/c1b63/image-20210810224303582.png&quot;
-        srcset=&quot;/static/dec322cc47afd2d2c949b68ff5e1600d/5a46d/image-20210810224303582.png 300w,
-/static/dec322cc47afd2d2c949b68ff5e1600d/0a47e/image-20210810224303582.png 600w,
-/static/dec322cc47afd2d2c949b68ff5e1600d/c1b63/image-20210810224303582.png 1200w,
-/static/dec322cc47afd2d2c949b68ff5e1600d/b54cd/image-20210810224303582.png 1662w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./image/Gradient-Descent-on-1D-loss-function/image-20210810224303582.png&quot; alt=&quot;image-20210810224303582&quot;&gt;&lt;/p&gt;
 &lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;python&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;This is Gradient Descent using sympy library&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
@@ -10741,7 +10467,7 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
   }
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Week 1 Table of Contents]]></title><description><![CDATA[References Naver AI Boostcamp Statistics 110 by Joseph Blitzstein Linear Algebra by Gilbert Strang Linear Algebra by 3Blue1Brown Grokking…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Week-1-Table-of-Contents/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Week-1-Table-of-Contents/</guid><pubDate>Sat, 07 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h3&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Week 1 Table of Contents]]></title><description><![CDATA[References Naver AI Boostcamp Statistics 110 by Joseph Blitzstein Linear Algebra by Gilbert Strang Linear Algebra by 3Blue1Brown Grokking…]]></description><link>https://snoop2head.github.io/Engineering/Week-1-Table-of-Contents/</link><guid isPermaLink="false">https://snoop2head.github.io/Engineering/Week-1-Table-of-Contents/</guid><pubDate>Sat, 07 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.boostcourse.org/boostcampaitech2/joinLectures/283128?isDesc=false&quot;&gt;Naver AI Boostcamp&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KbB0FjPg0mw&amp;#x26;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&quot;&gt;Statistics 110 by Joseph Blitzstein&lt;/a&gt;&lt;/li&gt;
@@ -11015,7 +10741,7 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Professor-Lim's-Master-Class(KOR)]]></title><description><![CDATA[…]]></description><link>https://snoop2head.github.io/DL&amp;ML/Professor-Lim&apos;s-Master-Class/</link><guid isPermaLink="false">https://snoop2head.github.io/DL&amp;ML/Professor-Lim&apos;s-Master-Class/</guid><pubDate>Thu, 05 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;네이버-부스트캠프-마스터클래스-임성빈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EB%A7%88%EC%8A%A4%ED%84%B0%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%9E%84%EC%84%B1%EB%B9%88&quot; aria-label=&quot;네이버 부스트캠프 마스터클래스 임성빈 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;네이버 부스트캠프 마스터클래스 (임성빈)&lt;/h2&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Professor-Lim's-Master-Class(KOR)]]></title><description><![CDATA[…]]></description><link>https://snoop2head.github.io/Configuring/Professor-Lim&apos;s-Master-Class/</link><guid isPermaLink="false">https://snoop2head.github.io/Configuring/Professor-Lim&apos;s-Master-Class/</guid><pubDate>Thu, 05 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;네이버-부스트캠프-마스터클래스-임성빈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EB%A7%88%EC%8A%A4%ED%84%B0%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%9E%84%EC%84%B1%EB%B9%88&quot; aria-label=&quot;네이버 부스트캠프 마스터클래스 임성빈 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;네이버 부스트캠프 마스터클래스 (임성빈)&lt;/h2&gt;
 &lt;h3 id=&quot;수학을-어떻게-공부해야-할까요&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98%ED%95%99%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B3%B5%EB%B6%80%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C%EC%9A%94&quot; aria-label=&quot;수학을 어떻게 공부해야 할까요 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수학을 어떻게 공부해야 할까요?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;머리로는 수학이 원래 어렵지만, 머리로 이해하는 건 너무 어렵고요. 여러분들 손에 익히는 걸 더 추천드리고 있어요. 머리로 이해하려면 시간이 너무 오래 걸리고요.&lt;/li&gt;
@@ -11236,7 +10962,7 @@ Thus Data should be augmented for DL, like using &lt;a href=&quot;https://github
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Blog's Purpose]]></title><description><![CDATA[Blog is guideline for my future self. There are some contents that I repeatedly talk to other people. The blog is to collect and refine…]]></description><link>https://snoop2head.github.io/Others/Blog&apos;s-Purpose/</link><guid isPermaLink="false">https://snoop2head.github.io/Others/Blog&apos;s-Purpose/</guid><pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Blog's Purpose]]></title><description><![CDATA[Blog is guideline for my future self. There are some contents that I repeatedly talk to other people. The blog is to collect and refine…]]></description><link>https://snoop2head.github.io/Configuring/Blog&apos;s-Purpose/</link><guid isPermaLink="false">https://snoop2head.github.io/Configuring/Blog&apos;s-Purpose/</guid><pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;Blog is guideline for my future self.&lt;/li&gt;
 &lt;li&gt;There are some contents that I repeatedly talk to other people. The blog is to collect and refine those kinds of contents.&lt;/li&gt;
 &lt;li&gt;My questions arose from learning certain concepts aren&apos;t new. Likewise, other people&apos;s questions are mostly things that I asked myself before.&lt;/li&gt;
