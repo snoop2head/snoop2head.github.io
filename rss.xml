@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[snoop2head's blog]]></title><description><![CDATA[break, compose, display]]></description><link>https://snoop2head.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 06 Oct 2022 10:06:06 GMT</lastBuildDate><item><title><![CDATA[VGG Implementation with Trial and Error]]></title><description><![CDATA[Personal Tips for Reading Paper Read Tables and Figures first: Most of the papers summarizes important findings on the tables and figures…]]></description><link>https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/</guid><pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;personal-tips-for-reading-paper&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#personal-tips-for-reading-paper&quot; aria-label=&quot;personal tips for reading paper permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Personal Tips for Reading Paper&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[snoop2head's blog]]></title><description><![CDATA[break, compose, display]]></description><link>https://snoop2head.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 06 Oct 2022 10:08:10 GMT</lastBuildDate><item><title><![CDATA[VGG Implementation with Trial and Error]]></title><description><![CDATA[Personal Tips for Reading Paper Read Tables and Figures first: Most of the papers summarizes important findings on the tables and figures…]]></description><link>https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/</guid><pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;personal-tips-for-reading-paper&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#personal-tips-for-reading-paper&quot; aria-label=&quot;personal tips for reading paper permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Personal Tips for Reading Paper&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Read Tables and Figures first&lt;/strong&gt;: Most of the papers summarizes important findings on the tables and figures. Often times, most of the text on the papers are peripheral explication of such tables and figures.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Read Methodology or Architecture before the Introduction&lt;/strong&gt;: introduction 1) is either relatively repetetive or 2) summary of preceding research.&lt;/li&gt;
@@ -6,7 +6,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;personal-tips-for-implementing-papers-into-code&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#personal-tips-for-implementing-papers-into-code&quot; aria-label=&quot;personal tips for implementing papers into code permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Personal Tips for Implementing Papers into Code&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Implement an experiment what seems to represent the novel findings of the paper.&lt;/strong&gt; Implementing all of the experiments in the paper is nearly impossible without the help of the others.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implement an experiment what seems to represent the novel findings of the paper.&lt;/strong&gt; Implementing all of the experiments in the paper is nearly impossible without the help of the others.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Open-source the code if and only if the paper is already open to the public.&lt;/strong&gt; Most of the code requires refactoring. Being aware of the audience, public code under the personal authorship is more likely to be proofreaded again even without feedbacks from the others.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Develop the official implementations or other people&apos;s implementations which are likely to be imperfect.&lt;/strong&gt; Surprisingly, many of the official implementations lack details. This is probably because of lack of time for version management where private code remains covert.&lt;/li&gt;
 &lt;/ul&gt;
@@ -129,7 +129,7 @@
 &lt;li&gt;Why initialization increases performance?&lt;/li&gt;
 &lt;li&gt;Difference between each Weight Initialization methods&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;How to initialize weights in Pytorch &lt;/p&gt;
+&lt;p&gt;How to initialize weights in Pytorch&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://jh-bk.tistory.com/10&quot;&gt;Loss Intialization&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://pytorch.org/docs/stable/nn.init.html&quot;&gt;torch.nn.init documentation&lt;/a&gt;&lt;/li&gt;
@@ -168,6 +168,7 @@
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        https://arxiv.org/pdf/1409.1556.pdf&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        - Implemented by @snoop2head and @lylajeon&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        - Implementation of Table 1&amp;#39;s ConvNet D Configuration&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        - Each of the layers&amp;#39; output notated as channel@heightxwidth on the comments&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
@@ -347,8 +348,8 @@
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# yield prediction probabilities for each class using softmax&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; F.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;softmax&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(out, &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;dim&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)  &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# assuming batch size is first dimension&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;def&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;_initialize_weights&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11 mtki&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;):    &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;def&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;_initialize_weights&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11 mtki&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;isinstance&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(module, nn.Conv2d):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            nn.init.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;kaiming_normal_&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(module.weight, &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;fan_out&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;nonlinearity&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;relu&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; module.bias &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;not&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
@@ -364,7 +365,7 @@
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk8&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;#39;Current cuda device is&amp;#39;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, device)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# Both are VGG16, Configuration D&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;custom_vgg_model &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;VGG16&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;custom_vgg_model &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;VGG16&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;torch_vgg_model &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;vgg16&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;pretrained&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# pretrained=False for random initialization&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
@@ -427,60 +428,59 @@
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;Estimated Total Size (MB): 746.96&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;----------------------------------------------------------------&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;​&lt;br&gt;
---------------------Torch VGG16--------------------
-----------------------------------------------------------------
-Layer (type)               Output Shape         Param #
-================================================================
-Conv2d-1         [-1, 64, 224, 224]           1,792
-ReLU-2         [-1, 64, 224, 224]               0
-Conv2d-3         [-1, 64, 224, 224]          36,928
-ReLU-4         [-1, 64, 224, 224]               0
-MaxPool2d-5         [-1, 64, 112, 112]               0
-Conv2d-6        [-1, 128, 112, 112]          73,856
-ReLU-7        [-1, 128, 112, 112]               0
-Conv2d-8        [-1, 128, 112, 112]         147,584
-ReLU-9        [-1, 128, 112, 112]               0
-MaxPool2d-10          [-1, 128, 56, 56]               0
-Conv2d-11          [-1, 256, 56, 56]         295,168
-ReLU-12          [-1, 256, 56, 56]               0
-Conv2d-13          [-1, 256, 56, 56]         590,080
-ReLU-14          [-1, 256, 56, 56]               0
-Conv2d-15          [-1, 256, 56, 56]         590,080
-ReLU-16          [-1, 256, 56, 56]               0
-MaxPool2d-17          [-1, 256, 28, 28]               0
-Conv2d-18          [-1, 512, 28, 28]       1,180,160
-ReLU-19          [-1, 512, 28, 28]               0
-Conv2d-20          [-1, 512, 28, 28]       2,359,808
-ReLU-21          [-1, 512, 28, 28]               0
-Conv2d-22          [-1, 512, 28, 28]       2,359,808
-ReLU-23          [-1, 512, 28, 28]               0
-MaxPool2d-24          [-1, 512, 14, 14]               0
-Conv2d-25          [-1, 512, 14, 14]       2,359,808
-ReLU-26          [-1, 512, 14, 14]               0
-Conv2d-27          [-1, 512, 14, 14]       2,359,808
-ReLU-28          [-1, 512, 14, 14]               0
-Conv2d-29          [-1, 512, 14, 14]       2,359,808
-ReLU-30          [-1, 512, 14, 14]               0
-MaxPool2d-31            [-1, 512, 7, 7]               0
-AdaptiveAvgPool2d-32            [-1, 512, 7, 7]               0
-Linear-33                 [-1, 4096]     102,764,544
-ReLU-34                 [-1, 4096]               0
-Dropout-35                 [-1, 4096]               0
-Linear-36                 [-1, 4096]      16,781,312
-ReLU-37                 [-1, 4096]               0
-Dropout-38                 [-1, 4096]               0
-Linear-39                 [-1, 1000]       4,097,000
+--------------------Torch VGG16--------------------&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;layer-type-output-shape-param&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#layer-type-output-shape-param&quot; aria-label=&quot;layer type output shape param permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Layer (type) Output Shape Param&lt;/h1&gt;
+&lt;p&gt;Conv2d-1 [-1, 64, 224, 224] 1,792
+ReLU-2 [-1, 64, 224, 224] 0
+Conv2d-3 [-1, 64, 224, 224] 36,928
+ReLU-4 [-1, 64, 224, 224] 0
+MaxPool2d-5 [-1, 64, 112, 112] 0
+Conv2d-6 [-1, 128, 112, 112] 73,856
+ReLU-7 [-1, 128, 112, 112] 0
+Conv2d-8 [-1, 128, 112, 112] 147,584
+ReLU-9 [-1, 128, 112, 112] 0
+MaxPool2d-10 [-1, 128, 56, 56] 0
+Conv2d-11 [-1, 256, 56, 56] 295,168
+ReLU-12 [-1, 256, 56, 56] 0
+Conv2d-13 [-1, 256, 56, 56] 590,080
+ReLU-14 [-1, 256, 56, 56] 0
+Conv2d-15 [-1, 256, 56, 56] 590,080
+ReLU-16 [-1, 256, 56, 56] 0
+MaxPool2d-17 [-1, 256, 28, 28] 0
+Conv2d-18 [-1, 512, 28, 28] 1,180,160
+ReLU-19 [-1, 512, 28, 28] 0
+Conv2d-20 [-1, 512, 28, 28] 2,359,808
+ReLU-21 [-1, 512, 28, 28] 0
+Conv2d-22 [-1, 512, 28, 28] 2,359,808
+ReLU-23 [-1, 512, 28, 28] 0
+MaxPool2d-24 [-1, 512, 14, 14] 0
+Conv2d-25 [-1, 512, 14, 14] 2,359,808
+ReLU-26 [-1, 512, 14, 14] 0
+Conv2d-27 [-1, 512, 14, 14] 2,359,808
+ReLU-28 [-1, 512, 14, 14] 0
+Conv2d-29 [-1, 512, 14, 14] 2,359,808
+ReLU-30 [-1, 512, 14, 14] 0
+MaxPool2d-31 [-1, 512, 7, 7] 0
+AdaptiveAvgPool2d-32 [-1, 512, 7, 7] 0
+Linear-33 [-1, 4096] 102,764,544
+ReLU-34 [-1, 4096] 0
+Dropout-35 [-1, 4096] 0
+Linear-36 [-1, 4096] 16,781,312
+ReLU-37 [-1, 4096] 0
+Dropout-38 [-1, 4096] 0
+Linear-39 [-1, 1000] 4,097,000
 ================================================================
 Total params: 138,357,544
 Trainable params: 138,357,544
-Non-trainable params: 0
-----------------------------------------------------------------
-Input size (MB): 0.57
+Non-trainable params: 0&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Input size (MB): 0.57
 Forward/backward pass size (MB): 218.78
 Params size (MB): 527.79
-Estimated Total Size (MB): 747.15
-----------------------------------------------------------------
-None&lt;/p&gt;
+Estimated Total Size (MB): 747.15&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;None&lt;/p&gt;
 &lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;python&quot; data-index=&quot;4&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk7&quot;&gt;MINI_BATCH_SIZE&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# numbers of images in a mini-batch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk7&quot;&gt;VALID_BATCH_SIZE&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# numbers of images in a mini-batch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk7&quot;&gt;LEARNING_RATE&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1e-4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
@@ -538,13 +538,13 @@ None&lt;/p&gt;
 &lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;python&quot; data-index=&quot;13&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# using torch dataloader to divide dataset into mini-batch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# https://pytorch.org/docs/stable/data.html&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;train_loader &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; torch.utils.data.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;DataLoader&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; train_data, &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;MINI_BATCH_SIZE&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; train_data,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;MINI_BATCH_SIZE&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;shuffle&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;True&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;eval_loader  &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; torch.utils.data.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;DataLoader&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; valid_data, &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;VALID_BATCH_SIZE&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; valid_data,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;VALID_BATCH_SIZE&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;shuffle&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;True&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
@@ -641,7 +641,7 @@ None&lt;/p&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        data &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; data.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(device)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# Tagets is label [Labels = 50] tensor&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        target_tensor &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; target_tensor.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(device)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# Gradient Descent process&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        optimizer.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;zero_grad&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# initializing previously saved gradient&amp;#39;s value to zero # https://jaeyung1001.tistory.com/115&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        output &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(data) &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# feed forward to get one-hot-encoded output probabilities&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
@@ -683,12 +683,12 @@ None&lt;/p&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;model.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;eval&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;correct &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; data, target_labels &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;tqdm&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(eval_loader):    &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; data, target_labels &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;tqdm&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(eval_loader):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# data is [Batch Size = 50, Channel Size = 1, Height = 28, Width = 28] tensor&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    data &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; data.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(device)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# Tagets is label [Labels = 50] tensor&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    target_labels &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; target_labels.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(device)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# getting predicted output label out of maximum probabilities&amp;#39; output in the tensor&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    output &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(data)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    predicted_output_labels &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; output.data.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
