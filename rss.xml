@@ -1,4 +1,302 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[snoop2head's blog]]></title><description><![CDATA[break, compose, display]]></description><link>https://snoop2head.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 06 Oct 2022 10:12:52 GMT</lastBuildDate><item><title><![CDATA[VGG Implementation with Trial and Error]]></title><description><![CDATA[Personal Tips for Reading Paper Read Tables and Figures first: Most of the papers summarizes important findings on the tables and figures…]]></description><link>https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/</guid><pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;personal-tips-for-reading-paper&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#personal-tips-for-reading-paper&quot; aria-label=&quot;personal tips for reading paper permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Personal Tips for Reading Paper&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[snoop2head's blog]]></title><description><![CDATA[break, compose, display]]></description><link>https://snoop2head.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 13 Oct 2022 08:57:17 GMT</lastBuildDate><item><title><![CDATA[What Makes ResNet Good Model?]]></title><description><![CDATA[Residual Connection is Good, Up to Now ResNet was introduced in 2015 on the paper Deep Residual Learning for Image Recognition. Nevertheless…]]></description><link>https://snoop2head.github.io/Researching/Why-Is-ResNet-So-Good/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Why-Is-ResNet-So-Good/</guid><pubDate>Wed, 12 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;residual-connection-is-good-up-to-now&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#residual-connection-is-good-up-to-now&quot; aria-label=&quot;residual connection is good up to now permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Residual Connection is Good, Up to Now&lt;/h2&gt;
+&lt;p&gt;ResNet was introduced in 2015 on the paper &lt;a href=&quot;https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&quot;&gt;Deep Residual Learning for Image Recognition&lt;/a&gt;. &lt;strong&gt;Nevertheless, residual connection is often found on SOTA neural network even in 2020s.&lt;/strong&gt; For example, skip connection can be found on NLP domain&apos;s KorQuad Machine Reading Comprehension&apos;s &lt;a href=&quot;https://www.youtube.com/watch?v=ovD_87gHZO4&amp;#x26;t=832s&quot;&gt;SOTA model introduced by Samsung SDS&lt;/a&gt;. QuestionAnswering classifier of Samsung SDS is illustrated and represented as pytorch code below.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABtElEQVQoz0VSi26kMAzk/7+tOu2eru1KXWDLUp4BQl6EBJg62dvWUoiI7fF47OQ4DoTztH0/4Oz6c/zq0DUtyuKOtm6ghIxv0ec9/LbRvcW8YMkTbCNHsJlNmBsG2U8Q/Rhv9tXiKytQ30rwdoBkHHPdk3+CdR5msfH0fY8kgHDOcT6fUdV1BMF/wk/e6bLiQsysVvD7/mwFXpufzhwBX9P0AeicwzQRIykgR45lmsHvNcbPCsey4E0ZvM4EKCVWig2FQsuGC+zUoad2/bZHUsk8zxiGIYKaxWDqBvCigv5sIK8lPIH/Ewp/ucRCBRdr0UwSmtgZreEpLytrMIqTQiAR9GGMwVKgJAZdz8DyO1ReQ14KLFWLP8OIl3GGplhBMXnVUawiUA1jNF4/clRtj0Au2UmLwC5MLIBamuBuSOR7C5GVIAfezYKL1HBKwdG/2R6aOYo9KH8UBGwdbrfbQ8NgAWxdSRdKDrZ6B0US0E7hnQZy6noo0jkUjzOhrbCk7++W7Didzr9rE9o2xsTxjxNHUZS4XjM0bYe2H/CRZsSgwEBDiyvCBqRZThtCg1Q6vjVNg29p7LLfjllotAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20221013162642043&quot;
+        title=&quot;image-20221013162642043&quot;
+        src=&quot;/static/4fa6584db4ee3c01d7c5e1edcd2dd4f4/c1b63/image-20221013162642043.png&quot;
+        srcset=&quot;/static/4fa6584db4ee3c01d7c5e1edcd2dd4f4/5a46d/image-20221013162642043.png 300w,
+/static/4fa6584db4ee3c01d7c5e1edcd2dd4f4/0a47e/image-20221013162642043.png 600w,
+/static/4fa6584db4ee3c01d7c5e1edcd2dd4f4/c1b63/image-20221013162642043.png 1200w,
+/static/4fa6584db4ee3c01d7c5e1edcd2dd4f4/ab40b/image-20221013162642043.png 1736w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;python&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; torch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; torch &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;ConvSDSLayer&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;Module&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;def&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11 mtki&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;input_size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;hidden_dim&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        Samsung SDS Convolution Layer Block&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        - input_size: token sequence length of the input&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        - hidden_size: embedding dimension ranging from 768(base) ~ 1024(large)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        - Implemented by @j961224 and @snoop2head&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;        &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.conv1 &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;Conv1d&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;in_channels&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;input_size,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;out_channels&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;input_size &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;kernel_size&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        )&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.conv2 &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;Conv1d&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;in_channels&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;input_size &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;out_channels&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;input_size,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;kernel_size&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        )&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.layer_norm &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;LayerNorm&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(hidden_dim)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.activation &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;ReLU&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;def&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11 mtki&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: torch.Tensor) -&amp;gt; torch.Tensor:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        out &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;conv1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(x)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        out &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;conv2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(out)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        out &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; x &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;activation&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(out)  &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# Residual Connection&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        out &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;layer_norm&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(out)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; out&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;ConvSDSHead&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;Module&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;    Classifier Head for the Machine Reading Comprehension&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;    - Input: batch_size x sequence_length x hidden_size&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;    - Output: batch_size x sequence_length x (start_logits, end_logits)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;    - Implemented by @j961224 and @snoop2head&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;def&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11 mtki&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;n_layers&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;input_size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;hidden_size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;768&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;num_labels&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# output of start of the span and end of the span&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    ):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.n_layers &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; n_layers&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.input_size &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; input_size&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.hidden_size &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; hidden_size&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.classifier &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.hidden_size, num_labels)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;def&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11 mtki&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: torch.Tensor) -&amp;gt; torch.Tensor:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        convs &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; [&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;ConvSDSLayer&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.input_size, &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.hidden_size)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; _ &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.n_layers)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        ]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.convs &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;Sequential&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(*convs)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        out &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;convs&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(x)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;classifier&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(out)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# sample input&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;x &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; torch.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;randn&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;768&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# 1 batch x 512 seq length x 768 dimension size&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;model &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;ConvSDSHead&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk3&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(x).shape&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;torch.Size([1, 512, 2])&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Regarding Machine Reading Comprehension, please refer to my blog post of &lt;a href=&quot;https://snoop2head.github.io/Engineering/Custom-MRC-Reader/&quot;&gt;Customizing Question Answering Reader Model&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Moreover, &lt;a href=&quot;https://github.com/affjljoo3581/Job-Recommend-Competition&quot;&gt;multi-modal model architecture that 2022 Dacon competition introduced by @affjljoo3581&lt;/a&gt; also utilizes the skip connection as the following.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;Residual Block&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;Model Architecture&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/affjljoo3581/Job-Recommend-Competition/raw/main/images/architecture-2.png&quot; alt=&quot;img&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/affjljoo3581/Job-Recommend-Competition/raw/main/images/architecture-1.png&quot; alt=&quot;img&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;python&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; torch &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk10&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;SiDResidualBlock&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;Module&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  	&lt;/span&gt;&lt;span class=&quot;mtk6&quot;&gt;&amp;quot;&amp;quot;&amp;quot; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;133&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;  	- Referencing https://github.com/affjljoo3581/Job-Recommend-Competition/blob/bb41cdd02161d97813f03eb9d23ff8c186b7da83/src/modeling.py&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;134&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;  	- Both model architecture illustration and code implemented by @affjljoo3581&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;135&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk6&quot;&gt;  	&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;136&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;def&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11 mtki&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: SiDConfig):&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;137&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;138&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.feedforward &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;Sequential&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;139&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(config.hidden_size, config.intermediate_size),&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;140&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;GELU&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(),&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;141&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(config.intermediate_size, config.hidden_size &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;),&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;142&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        )&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;143&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.dropout &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; nn.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;Dropout&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(config.hidden_dropout_prob)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;144&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;145&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;def&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11 mtki&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7 mtki&quot;&gt;hidden_states&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: torch.Tensor) -&amp;gt; torch.Tensor:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;146&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        output &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;feedforward&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(hidden_states)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;147&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        output, gating &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; output.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;chunk&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4 mtki&quot;&gt;dim&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;148&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        output &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; output &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; gating.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;sigmoid&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-gutter-pad&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-gutter grvsc-line-number&quot; aria-hidden=&quot;true&quot; data-content=&quot;149&quot;&gt;&lt;/span&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk10 mtki&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; hidden_states &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;dropout&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(output) &lt;/span&gt;&lt;span class=&quot;mtk5 mtki&quot;&gt;# Residual Connection&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;problem-with-deeper-neural-network&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#problem-with-deeper-neural-network&quot; aria-label=&quot;problem with deeper neural network permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Problem with Deeper Neural Network&lt;/h2&gt;
+&lt;p&gt;ResNet is introduced as the extension from how to make deeper neural network. Please refer to my previous blog post of &lt;a href=&quot;https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/&quot;&gt;VGG Implementation with Trial and Error&lt;/a&gt; to grasp the context before the advent of ResNet. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Long-lasting problem was that performance gain from stacking up deeper convolution layers was limited.&lt;/strong&gt; It was underlying assumption is that deeper neural network has advantages in terms of feature extraction. VGG16 and VGG19 was one of the attempt to introduce deeper neural network. However, such notion didn&apos;t hold true in reality, if more layers are adjoined. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Residual connection between the layers resolved such problem.&lt;/strong&gt; Below is the diagram of validation error according to the number of layers. Figure on the left shows that 34 layers of VGG-alike CNN model underperforming that of 18 layers. ResNet&apos;s main contribution was that it resolved such issue by introducing skip connection. Figure on the right displays that deeper the ResNet model, the lower the model&apos;s validation error on ImageNet dataset.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABIUlEQVQoz3VRXW+EMAzj//8+HhA78XI7OKDlq0ApbfEcxiY0aZGsVqnjOGkydBowBnHfEY8DR4w45LwgOYlhmrAREn85dyT1ukJ9PuG7DlIa72S5ExLrPEO/37DC+UfsFAwkGBZNbYufOIWJcJ3SZBwGGK1RVSXmZbmIx/kWr8anoCQFbd+jbhp0ZYmdruEcUNfAOMKTrJT6FqGYZt5wRbP3vyb8ZSTZmAwhwFN0591wn4rCmgLl64VOdsyw2wbhenI3rTBworqq0HJVHZt8WAtFE0lRFMiyDP7WTTrRHxqiv3IrXed5jjRNscgEEhR3/CjLVbjHA55nstKRuNo5wsTHmuNYdnNEoKsgo8uk/JSFvIlwzMtOG7p0rBNsdBlo6gtFgSDiz76ApAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20221013170217585&quot;
+        title=&quot;image-20221013170217585&quot;
+        src=&quot;/static/e49961419c1d5e34bc28ebbde6025979/c1b63/image-20221013170217585.png&quot;
+        srcset=&quot;/static/e49961419c1d5e34bc28ebbde6025979/5a46d/image-20221013170217585.png 300w,
+/static/e49961419c1d5e34bc28ebbde6025979/0a47e/image-20221013170217585.png 600w,
+/static/e49961419c1d5e34bc28ebbde6025979/c1b63/image-20221013170217585.png 1200w,
+/static/e49961419c1d5e34bc28ebbde6025979/d61c2/image-20221013170217585.png 1800w,
+/static/e49961419c1d5e34bc28ebbde6025979/97a96/image-20221013170217585.png 2400w,
+/static/e49961419c1d5e34bc28ebbde6025979/16529/image-20221013170217585.png 2506w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;residual-connection-and-residual-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#residual-connection-and-residual-learning&quot; aria-label=&quot;residual connection and residual learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Residual Connection and Residual Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Two shortcuts were proposed, where one is identity summation and the other one is projection summation.&lt;/li&gt;
+&lt;li&gt;Previously, H(x) was the original output where such layers were directly fitted according to the output H(x).&lt;/li&gt;
+&lt;li&gt;F(x) = H(x) - x is the new objective function to fit proposed in ResNet architecture. Fitting on the residual, F(x) may converge to zero in backpropagation.&lt;/li&gt;
+&lt;li&gt;H(x) = F(x) + x is then feedforward output of the neural network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1142px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABLklEQVQoz21R2W6DQAzkU/veP+hrv66pGiJ4CAQaJZyhnEu4Go6pvQTUVB3Jwqx3Z8a2AsI4jpimCQs44///gtG2LURZyi+/xf0+Q7ndbkiSGJ/HI/I8R1VVc5EJFqFfYkWRw3Ec2LaNKIoQhiG6rltJFSEEjkS22+2w3+/huu6D28Xx9XrFMAwIgwC6ruNts8HBsma3xLE6ZHZ2ZlHRNE2kaSoLI50Hry84PT+hLwViOmfSohC4XCKoqiqNsEgjSQuZK3yJW2BVwzDged48L2q3tU1U6jumvl/d+r6Pj+0WKnV0Op9JpJIjs6wDfHKvNE2DgBImZbJ2mQce0ZGLJEloXuymlAa4Mw4+60mUg5byjSzLwMtZZ7ZslZdy3yLX+XFT16jrBpqm4SuO8Rc/nJcWuZAP2b4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20221013174932582&quot;
+        title=&quot;image-20221013174932582&quot;
+        src=&quot;/static/2b2f8010d5d52858e97607ce8a1ecb47/b490f/image-20221013174932582.png&quot;
+        srcset=&quot;/static/2b2f8010d5d52858e97607ce8a1ecb47/5a46d/image-20221013174932582.png 300w,
+/static/2b2f8010d5d52858e97607ce8a1ecb47/0a47e/image-20221013174932582.png 600w,
+/static/2b2f8010d5d52858e97607ce8a1ecb47/b490f/image-20221013174932582.png 1142w&quot;
+        sizes=&quot;(max-width: 1142px) 100vw, 1142px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Other details posed at previous VGG post: Batch normalization and weight initialization on also appears on ResNet paper which will be discussed in other posts.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-behind-residual-connection&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-behind-residual-connection&quot; aria-label=&quot;what is behind residual connection permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is behind Residual Connection?&lt;/h2&gt;
+&lt;p&gt;It is naively assumed that gradient vanishing problem was averted through identity addition. The paper &lt;a href=&quot;https://arxiv.org/pdf/1605.06431.pdf&quot;&gt;Residual Networks Behave Like Ensembles of Relatively Shallow Networks&lt;/a&gt; closely examines the behavior of ResNet.&lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+  .one-dark-pro {
+    background-color: #282c34;
+    color: #abb2bf;
+  }
+  .one-dark-pro .mtki { font-style: italic; }
+  .one-dark-pro .mtk10 { color: #C678DD; }
+  .one-dark-pro .mtk1 { color: #ABB2BF; }
+  .one-dark-pro .mtk11 { color: #E5C07B; }
+  .one-dark-pro .mtk8 { color: #56B6C2; }
+  .one-dark-pro .mtk7 { color: #D19A66; }
+  .one-dark-pro .mtk6 { color: #98C379; }
+  .one-dark-pro .mtk3 { color: #61AFEF; }
+  .one-dark-pro .mtk4 { color: #E06C75; }
+  .one-dark-pro .mtk5 { color: #7F848E; }
+  .one-dark-pro .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
+  }
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[VGG Implementation with Trial and Error]]></title><description><![CDATA[Personal Tips for Reading Paper Read Tables and Figures first: Most of the papers summarizes important findings on the tables and figures…]]></description><link>https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/</link><guid isPermaLink="false">https://snoop2head.github.io/Researching/Friendly-VGG-Implementation/</guid><pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;personal-tips-for-reading-paper&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#personal-tips-for-reading-paper&quot; aria-label=&quot;personal tips for reading paper permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Personal Tips for Reading Paper&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Read Tables and Figures first&lt;/strong&gt;: Most of the papers summarizes important findings on the tables and figures. Often times, most of the text on the papers are peripheral explication of such tables and figures.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Read Methodology or Architecture before the Introduction&lt;/strong&gt;: introduction 1) is either relatively repetetive or 2) summary of preceding research.&lt;/li&gt;
