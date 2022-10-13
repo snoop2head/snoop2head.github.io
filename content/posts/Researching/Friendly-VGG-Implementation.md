@@ -1,7 +1,7 @@
 ---
 title: "VGG Implementation with Trial and Error"
 date: 2022-10-03
-tags: ["ComputerVision", "Pytorch", "VGG"]
+tags: ["ComputerVision", "Pytorch", "CNN"]
 draft: false
 ---
 
