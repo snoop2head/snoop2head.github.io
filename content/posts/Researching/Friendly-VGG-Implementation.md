@@ -31,7 +31,7 @@ Historically, simply stacking up multiple blocks of [3 x 3 convolution, activati
    Inception modules illustrated below uses heterogeneous sizes of convolutional layers, ranging from 1x1 to 5x5, which are concatenated at the end.
    ![image-20221004032254634](./image/Friendly-VGG-Implementation/image-20221004032254634.png)
 
-   Moreover, GoogleNet had intermediate auxiliary classifier, represented as the yellow block in the diagram below, used during the training. The architecture was computationally efficient but the structure was less intuitive.
+   Moreover, GoogleNet had intermediate auxiliary classifier, represented as the yellow block in the diagram below, used during the training. The architecture was to highjack gradients before it vanishes(or explodes) when passing through layers, but the structure was less intuitive.
 
    ![image-20221004032046216](./image/Friendly-VGG-Implementation/image-20221004032046216.png)
 

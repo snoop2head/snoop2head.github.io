@@ -144,5 +144,9 @@ Other details posed at previous VGG post: Batch normalization and weight initial
 
 ## What is behind Residual Connection?
 
-It is naively assumed that gradient vanishing problem was averted through identity addition. The paper [Residual Networks Behave Like Ensembles of Relatively Shallow Networks](https://arxiv.org/pdf/1605.06431.pdf) closely examines the behavior of ResNet.
+It is naively assumed that gradient vanishing problem was averted through identity addition. Thanks for the identity addition, H'(x) = F'(x) + 1 instead of being F'(x).  The paper [Residual Networks Behave Like Ensembles of Relatively Shallow Networks](https://arxiv.org/pdf/1605.06431.pdf) closely examines the behavior of ResNet.
+
+
+
+
 
